@@ -1,0 +1,29 @@
+version: "0.0.1"
+collections:
+  &onepiece "one-piece": 
+    name: *onepiece
+    locators:
+      &localhost "http://localhost:3838/aaaaaa": 
+        url: *localhost
+        label: "One piece TCG Display OP01 ENG"
+        country: "FR"
+        state: true
+        lastfetchdate: 03-04-2023
+        laststockdate: 03-04-2023
+        stock: true
+        price: "100"
+        currency: "EUR"
+      &localhost2 "http://localhost:3838/bbbbb": 
+        url: *localhost2
+        label: "One piece TCG Display OP01 ENG"
+        country: "FR"
+        state: true
+        lastfetchdate: 03-04-2023
+        laststockdate: 03-04-2023
+        stock: true
+        price: "100"
+        currency: "EUR"
+
+  &other "Other":
+    name: Other
+    locators: 
