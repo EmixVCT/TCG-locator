@@ -1,7 +1,10 @@
 version: "0.0.1"
+
+
 collections:
   &onepiece "one-piece": 
     name: *onepiece
+    
     locators:
       &localhost "http://localhost:3838/aaaaaa": 
         url: *localhost
@@ -13,6 +16,7 @@ collections:
         stock: true
         price: "100"
         currency: "EUR"
+        
       &localhost2 "http://localhost:3838/bbbbb": 
         url: *localhost2
         label: "One piece TCG Display OP01 ENG"

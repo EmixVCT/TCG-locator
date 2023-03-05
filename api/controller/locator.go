@@ -14,7 +14,7 @@ func Locator(w http.ResponseWriter, r *http.Request) {
 	config := utils.GetConfig()
 	collection := chi.URLParam(r, "collection")
 
-	if collection == "" || len(config.Collections[collection].Locators) == 0 {
+	if collection == "" || config.Collections[collection] == nil || len(config.Collections[collection].Locators) == 0 {
 		render.Render(w, r, utils.Err(errors.New("collection not found"), http.StatusBadRequest))
 		return
 	}
