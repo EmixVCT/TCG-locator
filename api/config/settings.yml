@@ -1,32 +1,80 @@
 version: "0.0.1"
-
+debug: true
+croncrawler: "0 * * * * *"
 
 collections:
   &onepiece "one-piece": 
     name: *onepiece
     
     locators:
-      &localhost "http://localhost:3838/aaaaaa": 
-        url: *localhost
-        label: "One piece TCG Display OP01 ENG"
+      &parkageOP3ENG "https://www.parkage.com/fr/0984340-boite-de-24-boosters-one-piece-card-game-pillars-of-strength-op03": 
+        url: *parkageOP3ENG
+        label: "One piece TCG Display OP03 ENG"
         country: "FR"
-        state: true
-        lastfetchdate: 03-04-2023
-        laststockdate: 03-04-2023
-        stock: true
-        price: "100"
         currency: "EUR"
+        stock:
+          url: *parkageOP3ENG
+          isapi: false
+          regex: <button type="button" class="btn btn-success (add-to-cart-button)" >
+          type: "bool"
+        price: 
+          url: *parkageOP3ENG
+          isapi: false
+          regex: <div class="price">(.*) €<\/div>
+          type: "string"
         
-      &localhost2 "http://localhost:3838/bbbbb": 
-        url: *localhost2
-        label: "One piece TCG Display OP01 ENG"
-        country: "FR"
-        state: true
-        lastfetchdate: 03-04-2023
-        laststockdate: 03-04-2023
-        stock: true
-        price: "100"
-        currency: "EUR"
+
+      # &localhost "http://localhost:3838/aaaaaa": 
+      #   url: *localhost
+      #   label: "One piece TCG Display OP01 ENG"
+      #   country: "FR"
+      #   stock:
+      #     url: *localhost
+      #     isapi: false
+      #     apiparam: ""
+      #     regex: ""
+      #     value: 
+      #     type: "bool"
+      #   price: 
+      #     url: *localhost
+      #     isapi: false
+      #     apiparam: ""
+      #     regex: ""
+      #     value: 
+      #     type: "string"
+      #   currency: 
+      #     url: *localhost
+      #     isapi: false
+      #     apiparam: ""
+      #     regex: ""
+      #     value: 
+      #     type: "string"
+        
+      # &localhost2 "http://localhost:3838/bbbbb": 
+      #   url: *localhost2
+      #   label: "One piece TCG Display OP01 ENG"
+      #   country: "FR"
+      #   stock:
+      #     url: *localhost2
+      #     isapi: false
+      #     apiparam: ""
+      #     regex: ""
+      #     value: 
+      #     type: "bool"
+      #   price: 
+      #     url: *localhost2
+      #     isapi: false
+      #     apiparam: ""
+      #     regex: ""
+      #     value: 
+      #     type: "string"
+      #   currency: 
+      #     url: *localhost2
+      #     isapi: false
+      #     apiparam: ""
+      #     regex: ""
+      #     value: 
+      #     type: "string"
 
   &other "Other":
     name: Other

@@ -11,16 +11,16 @@ import (
 )
 
 func Locator(w http.ResponseWriter, r *http.Request) {
-	config := utils.GetConfig()
+	collections := utils.GetCollections()
 	collection := chi.URLParam(r, "collection")
 
-	if collection == "" || config.Collections[collection] == nil || len(config.Collections[collection].Locators) == 0 {
+	if collection == "" || collections[collection] == nil || len(collections[collection].Locators) == 0 {
 		render.Render(w, r, utils.Err(errors.New("collection not found"), http.StatusBadRequest))
 		return
 	}
 
 	log.Println("Loading collection:", collection)
-	log.Println("Number of Locators:", len(config.Collections[collection].Locators))
+	log.Println("Number of Locators:", len(collections[collection].Locators))
 
-	render.Render(w, r, utils.Success("", utils.CollectionRender(config.Collections[collection])))
+	render.Render(w, r, utils.Success("", utils.CollectionRender(collections[collection])))
 }

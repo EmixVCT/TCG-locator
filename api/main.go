@@ -19,6 +19,8 @@ func init() {
 		log.Fatal(err)
 	}
 	log.Println("TCG-Locator configuration file loaded, version:", utils.GetConfig().Version)
+
+	utils.InitCrawl()
 }
 
 func main() {
@@ -40,7 +42,7 @@ func main() {
 		r.Use(httprate.LimitByIP(10, 1*time.Minute))
 		r.Use(middleware.Heartbeat("/"))
 
-		r.Get("/locator/{collection}", controller.Locator)
+		r.Get("/collection/{collection}", controller.Locator)
 	})
 
 	r.NotFound(controller.NotFound)
@@ -52,5 +54,6 @@ func main() {
 	//     r.Post("/manage", CreateAsset)
 	// })
 
-	http.ListenAndServe(":3838", r)
+	log.Println("Server running on port 3050")
+	http.ListenAndServe(":3050", r)
 }

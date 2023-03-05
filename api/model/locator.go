@@ -1,17 +1,21 @@
 package model
 
-import "net/http"
+import (
+	"net/http"
+	"time"
+)
 
 type Locator struct {
-	Url           string
-	Label         string
-	Country       string
+	Url      string
+	Label    string
+	Country  string
+	Currency string
+
 	State         bool
-	LastFetchDate string
-	LastStockDate string
-	Stock         bool
-	Price         string
-	Currency      string
+	LastFetchDate time.Time
+	LastStockDate time.Time
+	Stock         *Crawler
+	Price         *Crawler
 }
 
 func (rd *Locator) Render(w http.ResponseWriter, r *http.Request) error {
