@@ -24,8 +24,21 @@ func Success(message string, data interface{}) render.Renderer {
 
 func CollectionRender(collection *model.Collection) []render.Renderer {
 	list := []render.Renderer{}
-	for _, locator := range collection.Locators {
-		list = append(list, locator)
+	for iName, items := range collection.Items {
+		for url, locator := range items {
+			item := &model.ItemResponse{
+				Url:           url,
+				Label:         iName,
+				Country:       locator.Country,
+				Currency:      locator.Currency,
+				State:         locator.State,
+				LastFetchDate: locator.LastFetchDate,
+				LastStockDate: locator.LastStockDate,
+				Stock:         locator.Stock.Value.(bool),
+				Price:         locator.Price.Value.(string),
+			}
+			list = append(list, item)
+		}
 	}
 	return list
 }

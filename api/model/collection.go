@@ -3,8 +3,8 @@ package model
 import "net/http"
 
 type Collection struct {
-	Name     string
-	Locators map[string]*Locator
+	Name  string
+	Items map[string]map[string]*Locator
 }
 
 func (rd *Collection) Render(w http.ResponseWriter, r *http.Request) error {

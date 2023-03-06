@@ -5,23 +5,88 @@ croncrawler: "0 * * * * *"
 collections:
   &onepiece "one-piece": 
     name: *onepiece
-    
-    locators:
-      &parkageOP3ENG "https://www.parkage.com/fr/0984340-boite-de-24-boosters-one-piece-card-game-pillars-of-strength-op03": 
-        url: *parkageOP3ENG
-        label: "One piece TCG Display OP03 ENG"
-        country: "FR"
-        currency: "EUR"
-        stock:
+    items:
+      "One piece TCG Display OP02 ENG":
+        &fantasysphereOP2ENG "https://shop.fantasysphere.net/one-piece-tcg/10024012--pre-commande-one-piece-display-boite-de-24-boosters-paramount-war-op-02-en-811039039097.html": 
+          url: *fantasysphereOP2ENG
+          country: "FR"
+          currency: "EUR"
+          stock:
+            url: *fantasysphereOP2ENG
+            regex: <button *\n* *class="btn btn-primary add-to-cart" *\n* *data-button-action="add-to-cart" *\n* *type="submit" *\n* *([^(disabled)]) *\n* *>
+            type: "bool"
+          price: 
+            url: *fantasysphereOP2ENG
+            regex: <span itemprop="price" content="([0-9]*)">
+            type: "string"
+
+      "One piece TCG Display OP03 ENG":
+        &parkageOP3ENG "https://www.parkage.com/fr/0984340-boite-de-24-boosters-one-piece-card-game-pillars-of-strength-op03": 
           url: *parkageOP3ENG
-          isapi: false
-          regex: <button type="button" class="btn btn-success (add-to-cart-button)" >
-          type: "bool"
-        price: 
-          url: *parkageOP3ENG
-          isapi: false
-          regex: <div class="price">(.*) €<\/div>
-          type: "string"
+          country: "FR"
+          currency: "EUR"
+          stock:
+            url: *parkageOP3ENG
+            regex: <button type="button" class="btn btn-success (add-to-cart-button)" >
+            type: "bool"
+          price: 
+            url: *parkageOP3ENG
+            regex: <div class="price">(.*) €<\/div>
+            type: "string"
+        &fantasysphereOP3ENG "https://shop.fantasysphere.net/one-piece-tcg/10024194--pre-commande-one-piece-display-boite-de-24-boosters-pillard-of-strength-op-03-en-810059780514.html": 
+          url: *fantasysphereOP3ENG
+          country: "FR"
+          currency: "EUR"
+          stock:
+            url: *fantasysphereOP3ENG
+            regex: <button *\n* *class="btn btn-primary add-to-cart" *\n* *data-button-action="add-to-cart" *\n* *type="submit" *\n* *([^(disabled)]) *\n* *>
+            type: "bool"
+          price: 
+            url: *fantasysphereOP3ENG
+            regex: <span itemprop="price" content="([0-9]*)">
+            type: "string"
+
+
+      "One piece TCG Display OP04 ENG":
+        &fantasysphereOP4ENG "https://shop.fantasysphere.net/one-piece-tcg/10024805--pre-commande-one-piece-display-boite-de-24-boosters-kingdoms-of-intrigue-op-04-en-810059781993.html": 
+          url: *fantasysphereOP4ENG
+          country: "FR"
+          currency: "EUR"
+          stock:
+            url: *fantasysphereOP4ENG
+            regex: <button *\n* *class="btn btn-primary add-to-cart" *\n* *data-button-action="add-to-cart" *\n* *type="submit" *\n* *(disabled)? *\n* *>
+            type: "bool"
+          price: 
+            url: *fantasysphereOP4ENG
+            regex: <span itemprop="price" content="([0-9]*)">
+            type: "string"
+        &parkageOP4ENG "https://www.parkage.com/fr/0992814-boite-de-24-boosters-one-piece-card-game-kingdoms-of-intrigue-op04": 
+          url: *parkageOP4ENG
+          country: "FR"
+          currency: "EUR"
+          stock:
+            url: *parkageOP4ENG
+            regex: <button type="button" class="btn btn-success (add-to-cart-button)" >
+            type: "bool"
+          price: 
+            url: *parkageOP4ENG
+            regex: <div class="price">(.*) €<\/div>
+            type: "string"
+
+
+      "One piece TCG Display ST08 ENG":
+        &parkageDeckSt08 "https://www.parkage.com/fr/0988861-one-piece-card-game-starter-deck-monkey-d-luffy-st08": 
+          url: *parkageDeckSt08
+          country: "FR"
+          currency: "EUR"
+          stock:
+            url: *parkageDeckSt08
+            regex: <button type="button" class="btn btn-success (add-to-cart-button)" >
+            type: "bool"
+          price: 
+            url: *parkageDeckSt08
+            regex: <div class="price">(.*) €<\/div>
+            type: "string"
         
 
       # &localhost "http://localhost:3838/aaaaaa": 

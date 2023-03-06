@@ -7,7 +7,6 @@ import (
 
 type Locator struct {
 	Url      string
-	Label    string
 	Country  string
 	Currency string
 

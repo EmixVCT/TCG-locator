@@ -33,29 +33,31 @@ func CrawlAll() {
 
 	for _, c := range collections {
 		Debug("Crawl collection:", c.Name)
-		for _, l := range c.Locators {
-			Debug(l.Url, l.LastFetchDate, l.LastStockDate, l.State)
+		for iName, i := range c.Items {
+			Debug("Crawl items:", iName)
+			for _, l := range i {
 
-			//start crawling
-			errCrawling := false
-			if err := Crawl(l.Stock); err != nil {
-				errCrawling = true
-			}
-			Debug("end crawl :", l.Stock)
-
-			if err := Crawl(l.Price); err != nil {
-				errCrawling = true
-			}
-			Debug("end crawl :", l.Price)
-
-			if !errCrawling {
-				l.LastFetchDate = time.Now()
-				l.State = true
-				if l.Stock.Value != nil && l.Stock.Value.(bool) {
-					l.LastStockDate = time.Now()
+				//start crawling
+				errCrawling := false
+				if err := Crawl(l.Stock); err != nil {
+					errCrawling = true
 				}
-			} else {
-				l.State = false
+				if err := Crawl(l.Price); err != nil {
+					errCrawling = true
+				}
+
+				if !errCrawling {
+					l.LastFetchDate = time.Now()
+					l.State = true
+					if l.Stock.Value != nil && l.Stock.Value.(bool) {
+						l.LastStockDate = time.Now()
+					}
+				} else {
+					l.State = false
+				}
+
+				Debug(l.Url)
+				Debug("[CRAWLER] Price:", l.Price.Value, l.Currency, " Stock:", l.Stock.Value)
 			}
 			Debug("")
 		}
@@ -63,40 +65,42 @@ func CrawlAll() {
 }
 
 func Crawl(crawler *model.Crawler) error {
-	Debug("start crawl :", crawler)
 
-	req, err := http.NewRequest("GET", crawler.Url, nil)
-	if err != nil {
-		return err
-	}
+	if !crawler.IsApi {
+		req, err := http.NewRequest("GET", crawler.Url, nil)
+		if err != nil {
+			return err
+		}
+		res, err := http.DefaultClient.Do(req)
+		if err != nil {
+			return err
+		}
+		defer res.Body.Close()
+		body, err := ioutil.ReadAll(res.Body)
+		if err != nil {
+			return err
+		}
 
-	res, err := http.DefaultClient.Do(req)
-	if err != nil {
-		return err
-	}
+		r := regexp.MustCompile(crawler.Regex)
+		crawledValue := r.FindStringSubmatch(string(body))
 
-	defer res.Body.Close()
-
-	body, err := ioutil.ReadAll(res.Body)
-	if err != nil {
-		return err
-	}
-
-	r := regexp.MustCompile(crawler.Regex)
-	crawledValue := r.FindStringSubmatch(string(body))
-
-	if len(crawledValue) == 2 {
-		if crawler.Type == "string" {
-			crawler.Value = crawledValue[1]
-		} else if crawler.Type == "bool" {
-			crawler.Value = true
-		} else if crawler.Type == "int" {
-			crawler.Value = crawledValue[1]
+		//Debug(len(crawledValue))
+		if len(crawledValue) == 2 {
+			//Debug(crawledValue[1])
+			if crawler.Type == "string" {
+				crawler.Value = crawledValue[1]
+			} else if crawler.Type == "bool" {
+				crawler.Value = true
+			}
+		} else {
+			if crawler.Type == "bool" {
+				crawler.Value = false
+			} else if crawler.Type == "string" {
+				crawler.Value = "-"
+			}
 		}
 	} else {
-		if crawler.Type == "bool" {
-			crawler.Value = false
-		}
+		Debug("Not Implemented")
 	}
 
 	return nil
