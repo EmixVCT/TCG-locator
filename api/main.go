@@ -42,7 +42,7 @@ func main() {
 		r.Use(httprate.LimitByIP(10, 1*time.Minute))
 		r.Use(middleware.Heartbeat("/"))
 
-		r.Get("/collection/{collection}", controller.Locator)
+		r.Get("/locators", controller.Locator)
 	})
 
 	r.NotFound(controller.NotFound)

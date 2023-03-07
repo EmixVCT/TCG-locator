@@ -3,7 +3,6 @@ package utils
 import (
 	"fmt"
 	"io/ioutil"
-	"log"
 	"tcglocator/model"
 
 	"gopkg.in/yaml.v3"
@@ -18,17 +17,28 @@ func LoadConfig(url string) error {
 		if err2 := yaml.Unmarshal(yfile, &config); err2 != nil {
 			return err2
 		}
-		log.Println(config)
+
+		for _, filename := range config.SitesConfig {
+			if sfile, err := ioutil.ReadFile("config/sites/" + filename); err != nil {
+				return err
+			} else {
+				site := model.Site{}
+				if err2 := yaml.Unmarshal(sfile, &site); err2 != nil {
+					return err2
+				}
+				config.Sites = append(config.Sites, &site)
+			}
+		}
+
+		config.Locators = map[string]*model.Locator{}
 	}
+
+	Debug(config)
 	return nil
 }
 
 func GetConfig() model.Config {
 	return config
-}
-
-func GetCollections() map[string]*model.Collection {
-	return config.Collections
 }
 
 func Debug(v ...any) {

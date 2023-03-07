@@ -6,7 +6,7 @@ import (
 )
 
 type Locator struct {
-	Url      string
+	Label    string
 	Country  string
 	Currency string
 	Language string
@@ -14,8 +14,8 @@ type Locator struct {
 	State         bool
 	LastFetchDate time.Time
 	LastStockDate time.Time
-	Stock         *Crawler
-	Price         *Crawler
+	Stock         bool
+	Price         string
 }
 
 func (rd *Locator) Render(w http.ResponseWriter, r *http.Request) error {

@@ -4,6 +4,8 @@ type Config struct {
 	Version     string
 	Debug       bool
 	CronCrawler string
+	SitesConfig []string
 
-	Collections map[string]*Collection
+	Sites    []*Site
+	Locators map[string]*Locator //url name Locator{}
 }

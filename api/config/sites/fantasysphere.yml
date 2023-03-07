@@ -1,11 +1,11 @@
-
+name: "FantasySphere"
 country: "FR"
 currency: "EUR"
 stock:
-  regex: &RegexStockFantasysphere <button *\n* *class="btn btn-primary add-to-cart" *\n* *data-button-action="add-to-cart" *\n* *type="submit" *\n* *([^(disabled)]) *\n* *>
+  regex: <button *\n* *class="btn btn-primary add-to-cart" *\n* *data-button-action="add-to-cart" *\n* *type="submit" *\n* *([^(disabled)]) *\n* *>
   type: "bool"
 price: 
-  regex: &RegexPriceFantasysphere <span itemprop="price" content="([0-9,]*)">
+  regex: <span itemprop="price" content="([0-9,]*)">
   type: "string"
 
 urls:

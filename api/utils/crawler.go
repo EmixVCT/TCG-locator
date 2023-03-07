@@ -29,83 +29,76 @@ func InitCrawl() {
 }
 
 func CrawlAll() {
-	collections := GetCollections()
+	config := GetConfig()
+	for _, s := range config.Sites {
 
-	for _, c := range collections {
-		Debug("Crawl collection:", c.Name)
-		for iName, i := range c.Items {
-			Debug("Crawl items:", iName)
-			for _, l := range i {
+		Debug("\n", "Crawl site:", s.Name, "\n")
 
-				//start crawling
-				errCrawling := false
-				if err := Crawl(l.Stock, l.Url); err != nil {
-					errCrawling = true
-				}
-				if err := Crawl(l.Price, l.Url); err != nil {
-					errCrawling = true
-				}
+		for name, l := range s.Urls {
+			config.Locators[l.Url] = &model.Locator{}
 
-				if !errCrawling {
-					l.LastFetchDate = time.Now()
-					l.State = true
-					if l.Stock.Value != nil && l.Stock.Value.(bool) {
-						l.LastStockDate = time.Now()
+			config.Locators[l.Url].Label = name
+			config.Locators[l.Url].Country = s.Country
+			config.Locators[l.Url].Currency = s.Currency
+			config.Locators[l.Url].Language = l.Language
+
+			if v, err := Crawl(s.Price, l.Url); err == nil {
+				config.Locators[l.Url].Price = v.(string)
+				if v, err := Crawl(s.Stock, l.Url); err == nil {
+					config.Locators[l.Url].Stock = v.(bool)
+
+					config.Locators[l.Url].LastFetchDate = time.Now()
+					config.Locators[l.Url].State = true
+					if config.Locators[l.Url].Stock {
+						config.Locators[l.Url].LastStockDate = time.Now()
 					} else {
-						l.Stock.Value = false
+						config.Locators[l.Url].Stock = false
 					}
-				} else {
-					l.State = false
-					l.Stock.Value = false
-					l.Price.Value = "-"
+					Debug(l.Url)
+					Debug("[CRAWLER] Price:", config.Locators[l.Url].Price, config.Locators[l.Url].Currency, " Stock:", config.Locators[l.Url].Stock, "\n")
+					continue
 				}
-
-				Debug(l.Url)
-				Debug("[CRAWLER] Price:", l.Price.Value, l.Currency, " Stock:", l.Stock.Value)
 			}
-			Debug("")
+			Debug(l.Url, "not continue")
+			config.Locators[l.Url].State = false
 		}
 	}
+
 }
 
-func Crawl(crawler *model.Crawler, url string) error {
+func Crawl(crawler *model.Crawler, url string) (interface{}, error) {
 
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
-		return err
+		return nil, err
 	}
 	res, err := http.DefaultClient.Do(req)
 	if err != nil {
-		return err
+		return nil, err
 	}
 	defer res.Body.Close()
 	body, err := ioutil.ReadAll(res.Body)
 	if err != nil {
-		return err
+		return nil, err
 	}
 
 	r := regexp.MustCompile(crawler.Regex)
 	crawledValue := r.FindStringSubmatch(string(body))
 
-	//Debug(len(crawledValue))
 	if len(crawledValue) == 2 {
-		//Debug(crawledValue[1])
-		if crawler.Type == "string" {
-			if crawledValue[1] == "" {
-				crawler.Value = "-"
-			} else {
-				crawler.Value = crawledValue[1]
-			}
-		} else if crawler.Type == "bool" {
-			crawler.Value = true
-		}
-	} else {
 		if crawler.Type == "bool" {
-			crawler.Value = false
-		} else if crawler.Type == "string" {
-			crawler.Value = "-"
+			return true, nil
 		}
-	}
+		if crawledValue[1] == "" {
+			return "-", nil
+		}
 
-	return nil
+		return crawledValue[1], nil
+
+	}
+	if crawler.Type == "bool" {
+		return false, nil
+	}
+	return "-", nil
+
 }

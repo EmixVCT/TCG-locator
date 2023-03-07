@@ -6,6 +6,7 @@ type LocatorInfo struct {
 }
 
 type Site struct {
+	Name     string
 	Country  string
 	Currency string
 	Stock    *Crawler
