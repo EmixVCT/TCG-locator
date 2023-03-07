@@ -1,11 +1,9 @@
 package model
 
 type Crawler struct {
-	Url      string //Site URI
-	IsApi    bool   //True or False
-	ApiParam string
-	Regex    string //Regex finder in html page
+	Regex string //Regex finder in html page
+	Type  string //string or bool or int
 
 	Value interface{} //Crawler value
-	Type  string      //string or bool or int
+
 }

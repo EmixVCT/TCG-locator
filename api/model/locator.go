@@ -9,6 +9,7 @@ type Locator struct {
 	Url      string
 	Country  string
 	Currency string
+	Language string
 
 	State         bool
 	LastFetchDate time.Time

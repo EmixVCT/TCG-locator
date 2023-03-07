@@ -39,10 +39,10 @@ func CrawlAll() {
 
 				//start crawling
 				errCrawling := false
-				if err := Crawl(l.Stock); err != nil {
+				if err := Crawl(l.Stock, l.Url); err != nil {
 					errCrawling = true
 				}
-				if err := Crawl(l.Price); err != nil {
+				if err := Crawl(l.Price, l.Url); err != nil {
 					errCrawling = true
 				}
 
@@ -51,9 +51,13 @@ func CrawlAll() {
 					l.State = true
 					if l.Stock.Value != nil && l.Stock.Value.(bool) {
 						l.LastStockDate = time.Now()
+					} else {
+						l.Stock.Value = false
 					}
 				} else {
 					l.State = false
+					l.Stock.Value = false
+					l.Price.Value = "-"
 				}
 
 				Debug(l.Url)
@@ -64,43 +68,43 @@ func CrawlAll() {
 	}
 }
 
-func Crawl(crawler *model.Crawler) error {
+func Crawl(crawler *model.Crawler, url string) error {
 
-	if !crawler.IsApi {
-		req, err := http.NewRequest("GET", crawler.Url, nil)
-		if err != nil {
-			return err
-		}
-		res, err := http.DefaultClient.Do(req)
-		if err != nil {
-			return err
-		}
-		defer res.Body.Close()
-		body, err := ioutil.ReadAll(res.Body)
-		if err != nil {
-			return err
-		}
+	req, err := http.NewRequest("GET", url, nil)
+	if err != nil {
+		return err
+	}
+	res, err := http.DefaultClient.Do(req)
+	if err != nil {
+		return err
+	}
+	defer res.Body.Close()
+	body, err := ioutil.ReadAll(res.Body)
+	if err != nil {
+		return err
+	}
 
-		r := regexp.MustCompile(crawler.Regex)
-		crawledValue := r.FindStringSubmatch(string(body))
+	r := regexp.MustCompile(crawler.Regex)
+	crawledValue := r.FindStringSubmatch(string(body))
 
-		//Debug(len(crawledValue))
-		if len(crawledValue) == 2 {
-			//Debug(crawledValue[1])
-			if crawler.Type == "string" {
-				crawler.Value = crawledValue[1]
-			} else if crawler.Type == "bool" {
-				crawler.Value = true
-			}
-		} else {
-			if crawler.Type == "bool" {
-				crawler.Value = false
-			} else if crawler.Type == "string" {
+	//Debug(len(crawledValue))
+	if len(crawledValue) == 2 {
+		//Debug(crawledValue[1])
+		if crawler.Type == "string" {
+			if crawledValue[1] == "" {
 				crawler.Value = "-"
+			} else {
+				crawler.Value = crawledValue[1]
 			}
+		} else if crawler.Type == "bool" {
+			crawler.Value = true
 		}
 	} else {
-		Debug("Not Implemented")
+		if crawler.Type == "bool" {
+			crawler.Value = false
+		} else if crawler.Type == "string" {
+			crawler.Value = "-"
+		}
 	}
 
 	return nil

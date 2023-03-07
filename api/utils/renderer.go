@@ -30,6 +30,7 @@ func CollectionRender(collection *model.Collection) []render.Renderer {
 				Url:           url,
 				Label:         iName,
 				Country:       locator.Country,
+				Language:      locator.Language,
 				Currency:      locator.Currency,
 				State:         locator.State,
 				LastFetchDate: locator.LastFetchDate,

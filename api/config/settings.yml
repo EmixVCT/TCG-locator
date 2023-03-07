@@ -6,141 +6,385 @@ collections:
   &onepiece "one-piece": 
     name: *onepiece
     items:
-      "One piece TCG Display OP02 ENG":
+
+      "One piece TCG Display OP01":
+
+        &fantasysphereOP1ENG "https://shop.fantasysphere.net/one-piece-tcg/10023764-one-piece-display-boite-de-24-boosters-romance-dawn-op-01-en-811039038205.html": 
+          url: *fantasysphereOP1ENG
+          country: "FR"
+          language: "ENG"
+          currency: "EUR"
+          stock:
+            regex: &RegexStockFantasysphere <button *\n* *class="btn btn-primary add-to-cart" *\n* *data-button-action="add-to-cart" *\n* *type="submit" *\n* *([^(disabled)]) *\n* *>
+            type: "bool"
+          price: 
+            regex: &RegexPriceFantasysphere <span itemprop="price" content="([0-9,]*)">
+            type: "string"
+        &ultrajeuxOP1ENG "https://www.ultrajeux.com/produit-20576-boite-de-24-boosters-romance-dawn-op01-0811039038205.html": 
+          url: *ultrajeuxOP1ENG
+          country: "FR"
+          language: "ENG"
+          currency: "EUR"
+          stock:
+            regex: &RegexStockUltrajeux <input type="submit" value="(Ajouter)">
+            type: "bool"
+          price: 
+            regex: &RegexPriceUltrajeux <span class="prix">([0-9,]*).*</span>
+            type: "string"
+        &micromaniaOP1ENG "https://www.micromania.fr/booster-one-piece-romance-dawn-op01-126654.html": 
+          url: *micromaniaOP1ENG
+          country: "FR"
+          language: "ENG"
+          currency: "EUR"
+          stock:
+            regex: &RegexStockMicromania <button data-gtm=".*" class="(add-to-cart) product-action-button w-100 btn button button-primary icon-triple" data-pid="[0-9]*">
+            type: "bool"
+          price: 
+            regex: &RegexPrixMicromania <span class="value" itemprop="price" content="([0-9\.]*)">
+            type: "string"
+
+        &fnacOP1ENG "https://www.fnac.com/Carte-a-collectionner-Bandai-One-Piece-JCC-Booster-Romance-Dawn-OP01-EN/a17476838/w-4":
+          url: *fnacOP1ENG
+          country: "FR"
+          language: "ENG"
+          currency: "EUR"
+          stock:
+            regex: &RegexStockFnac <span class="f-faPriceBox__price userPrice js-ProductBuy-standardCheckable checked" data-price="([0-9,]*)">
+            type: "bool"
+          price: 
+            regex: &RegexPrixFnac <span class="f-faPriceBox__price userPrice js-ProductBuy-standardCheckable checked" data-price="([0-9,]*)">
+            type: "string"
+
+      "One piece TCG Display OP02":
+
         &fantasysphereOP2ENG "https://shop.fantasysphere.net/one-piece-tcg/10024012--pre-commande-one-piece-display-boite-de-24-boosters-paramount-war-op-02-en-811039039097.html": 
           url: *fantasysphereOP2ENG
           country: "FR"
+          language: "ENG"
           currency: "EUR"
           stock:
-            url: *fantasysphereOP2ENG
-            regex: <button *\n* *class="btn btn-primary add-to-cart" *\n* *data-button-action="add-to-cart" *\n* *type="submit" *\n* *([^(disabled)]) *\n* *>
+            regex: *RegexStockFantasysphere
             type: "bool"
           price: 
-            url: *fantasysphereOP2ENG
-            regex: <span itemprop="price" content="([0-9]*)">
+            regex: *RegexPriceFantasysphere
+            type: "string"
+        &fantasysphereOP2JAP "https://shop.fantasysphere.net/one-piece-tcg/10024751-one-piece-display-boite-de-24-boosters-paramount-war-op-02-jp.html": 
+          url: *fantasysphereOP2JAP
+          country: "FR"
+          language: "JAP"
+          currency: "EUR"
+          stock:
+            regex: *RegexStockFantasysphere
+            type: "bool"  
+          price: 
+            regex: *RegexPriceFantasysphere
+            type: "string"       
+            
+        &parkageOP2ENG "https://www.parkage.com/fr/0976757-boite-de-24-boosters-one-piece-card-game-paramount-war-op02":
+          url: *parkageOP2ENG
+          country: "FR"
+          language: "ENG"
+          currency: "EUR"
+          stock:
+            regex: &RegexStockParkage <button type="button" class="btn btn-success (add-to-cart-button)" >
+            type: "bool"
+          price: 
+            regex: &RegexPriceParkage <div class="price">([0-9,]*) €<\/div>
             type: "string"
 
-      "One piece TCG Display OP03 ENG":
+        &ultrajeuxOP2ENG "https://www.ultrajeux.com/produit-21124-boite-de-24-boosters-paramount-war-op02-.html": 
+          url: *ultrajeuxOP2ENG
+          country: "FR"
+          language: "ENG"
+          currency: "EUR"
+          stock:
+            regex: *RegexStockUltrajeux
+            type: "bool"
+          price: 
+            regex: *RegexPriceUltrajeux
+            type: "string" 
+
+      "One piece TCG Display OP03":
+
         &parkageOP3ENG "https://www.parkage.com/fr/0984340-boite-de-24-boosters-one-piece-card-game-pillars-of-strength-op03": 
           url: *parkageOP3ENG
           country: "FR"
+          language: "ENG"
           currency: "EUR"
           stock:
-            url: *parkageOP3ENG
-            regex: <button type="button" class="btn btn-success (add-to-cart-button)" >
+            regex: *RegexStockParkage
             type: "bool"
           price: 
-            url: *parkageOP3ENG
-            regex: <div class="price">(.*) €<\/div>
+            regex: *RegexPriceParkage
             type: "string"
         &fantasysphereOP3ENG "https://shop.fantasysphere.net/one-piece-tcg/10024194--pre-commande-one-piece-display-boite-de-24-boosters-pillard-of-strength-op-03-en-810059780514.html": 
           url: *fantasysphereOP3ENG
           country: "FR"
+          language: "ENG"
           currency: "EUR"
           stock:
-            url: *fantasysphereOP3ENG
-            regex: <button *\n* *class="btn btn-primary add-to-cart" *\n* *data-button-action="add-to-cart" *\n* *type="submit" *\n* *([^(disabled)]) *\n* *>
+            regex: *RegexStockFantasysphere
             type: "bool"
           price: 
-            url: *fantasysphereOP3ENG
-            regex: <span itemprop="price" content="([0-9]*)">
+            regex: *RegexPriceFantasysphere
             type: "string"
+        &ultrajeuxOP3ENG "https://www.ultrajeux.com/produit-22097-boite-de-24-boosters-pillard-of-strength-op03-.html": 
+          url: *ultrajeuxOP3ENG
+          country: "FR"
+          language: "ENG"
+          currency: "EUR"
+          stock:
+            regex: *RegexStockUltrajeux
+            type: "bool"
+          price: 
+            regex: *RegexPriceUltrajeux
+            type: "string" 
+        
 
+      "One piece TCG Display OP04":
 
-      "One piece TCG Display OP04 ENG":
         &fantasysphereOP4ENG "https://shop.fantasysphere.net/one-piece-tcg/10024805--pre-commande-one-piece-display-boite-de-24-boosters-kingdoms-of-intrigue-op-04-en-810059781993.html": 
           url: *fantasysphereOP4ENG
           country: "FR"
+          language: "ENG"
           currency: "EUR"
           stock:
-            url: *fantasysphereOP4ENG
-            regex: <button *\n* *class="btn btn-primary add-to-cart" *\n* *data-button-action="add-to-cart" *\n* *type="submit" *\n* *(disabled)? *\n* *>
+            regex: *RegexStockFantasysphere
             type: "bool"
           price: 
-            url: *fantasysphereOP4ENG
-            regex: <span itemprop="price" content="([0-9]*)">
+            regex: *RegexPriceFantasysphere
             type: "string"
         &parkageOP4ENG "https://www.parkage.com/fr/0992814-boite-de-24-boosters-one-piece-card-game-kingdoms-of-intrigue-op04": 
           url: *parkageOP4ENG
           country: "FR"
+          language: "ENG"
           currency: "EUR"
           stock:
-            url: *parkageOP4ENG
-            regex: <button type="button" class="btn btn-success (add-to-cart-button)" >
+            regex: *RegexStockParkage
             type: "bool"
           price: 
-            url: *parkageOP4ENG
-            regex: <div class="price">(.*) €<\/div>
+            regex: *RegexPriceParkage
             type: "string"
 
 
-      "One piece TCG Display ST08 ENG":
+      "One piece TCG Display ST01":
+        &ultrajeuxST01ENG "https://www.ultrajeux.com/produit-20572-straw-hat-crew-starter-deck-st01-0811039038243.html": 
+          url: *ultrajeuxST01ENG
+          country: "FR"
+          language: "ENG"
+          currency: "EUR"
+          stock:
+            regex: *RegexStockUltrajeux
+            type: "bool"
+          price: 
+            regex: *RegexPriceUltrajeux
+            type: "string" 
+      
+      "One piece TCG Display ST02":
+        &ultrajeuxST02ENG "https://www.ultrajeux.com/produit-20573-worst-generation-starter-deck-st02-0811039038397.html": 
+          url: *ultrajeuxST02ENG
+          country: "FR"
+          language: "ENG"
+          currency: "EUR"
+          stock:
+            regex: *RegexStockUltrajeux
+            type: "bool"
+          price: 
+            regex: *RegexPriceUltrajeux
+            type: "string"
+        &fnacST02ENG "https://www.fnac.com/Carte-a-collectionner-Bandai-One-Piece-JCC-Starter-Deck-Worst-Generation-ST02-EN/a17476840/w-4":
+          url: *fnacST02ENG
+          country: "FR"
+          language: "ENG"
+          currency: "EUR"
+          stock:
+            regex: *RegexStockFnac
+            type: "bool"
+          price: 
+            regex: *RegexPrixFnac
+            type: "string"
+
+
+      "One piece TCG Display ST03":
+        &ultrajeuxST03ENG "https://www.ultrajeux.com/produit-20571-the-seven-warlords-of-the-sea-starter-deck-st03-0811039038427.html": 
+          url: *ultrajeuxST03ENG
+          country: "FR"
+          language: "ENG"
+          currency: "EUR"
+          stock:
+            regex: *RegexStockUltrajeux
+            type: "bool"
+          price: 
+            regex: *RegexPriceUltrajeux
+            type: "string"
+
+      "One piece TCG Display ST04":
+        &ultrajeuxST04ENG "https://www.ultrajeux.com/produit-20574-animal-kingdom-pirates-starter-deck-st04-0811039038458.html": 
+          url: *ultrajeuxST04ENG
+          country: "FR"
+          language: "ENG"
+          currency: "EUR"
+          stock:
+            regex: *RegexStockUltrajeux
+            type: "bool"
+          price: 
+            regex: *RegexPriceUltrajeux
+            type: "string"
+
+      "One piece TCG Display ST05":
+        &ultrajeuxST05ENG "https://www.ultrajeux.com/produit-21126-one-piece-card-game-film-edition-deck-st05-0811039038960.html": 
+          url: *ultrajeuxST05ENG
+          country: "FR"
+          language: "ENG"
+          currency: "EUR"
+          stock:
+            regex: *RegexStockUltrajeux
+            type: "bool"
+          price: 
+            regex: *RegexPriceUltrajeux
+            type: "string"
+        &micromaniaST05ENG "https://www.micromania.fr/starter-deck-one-piece-film-edition-st05-128683.html": 
+          url: *micromaniaST05ENG
+          country: "FR"
+          language: "ENG"
+          currency: "EUR"
+          stock:
+            regex: *RegexStockMicromania 
+            type: "bool"
+          price: 
+            regex: *RegexPrixMicromania
+            type: "string"
+        &lqdgDeckSt05 "https://lequotidiendugeek.fr/one-piece/2243-precommande-one-piece-card-game-film-edition-starter-deck-st05-en-200123.html":
+          url: *lqdgDeckSt05
+          country: "FR"
+          language: "ENG"
+          currency: "EUR"
+          stock:
+            regex: &RegexStocklqdg <button *\n* *class="btn btn-primary add-to-cart btn-lg btn-block btn-add-to-cart js-add-to-cart" *\n* *data-button-action="add-to-cart" *\n* *type="submit" *\n* *([^(disabled)]) *\n* *>
+            type: "bool"
+          price: 
+            regex: &RegexPricelqdg <span class="current-price-display">([0-9,]*).*</span>
+            type: "string"
+
+
+      "One piece TCG Display ST06":
+        &ultrajeuxST06ENG "https://www.ultrajeux.com/produit-21125-one-piece-card-game-deck-navy-deck-st06-0811039039127.html": 
+          url: *ultrajeuxST06ENG
+          country: "FR"
+          language: "ENG"
+          currency: "EUR"
+          stock:
+            regex: *RegexStockUltrajeux
+            type: "bool"
+          price: 
+            regex: *RegexPriceUltrajeux
+            type: "string"
+        &parkageDeckSt06 "https://www.parkage.com/fr/0976755-one-piece-card-game-starter-deck-absolute-justice-st06": 
+          url: *parkageDeckSt06
+          country: "FR"
+          language: "ENG"
+          currency: "EUR"
+          stock:
+            regex: *RegexStockParkage
+            type: "bool"
+          price: 
+            regex: *RegexPriceParkage
+            type: "string"
+        &lqdgDeckSt06 "https://lequotidiendugeek.fr/one-piece/2242-precommande-one-piece-card-game-navy-starter-deck-st06-en-100323.html":
+          url: *lqdgDeckSt06
+          country: "FR"
+          language: "ENG"
+          currency: "EUR"
+          stock:
+            regex: *RegexStocklqdg
+            type: "bool"
+          price: 
+            regex: *RegexPricelqdg
+            type: "string"
+
+      "One piece TCG Display ST07":
+        &ultrajeuxST07ENG "https://www.ultrajeux.com/produit-22401-one-piece-card-game-big-mom-pirates-deck-st07-.html": 
+          url: *ultrajeuxST07ENG
+          country: "FR"
+          language: "ENG"
+          currency: "EUR"
+          stock:
+            regex: *RegexStockUltrajeux
+            type: "bool"
+          price: 
+            regex: *RegexPriceUltrajeux
+            type: "string"
+        &parkageDeckSt07 "https://www.parkage.com/fr/0984338-one-piece-card-game-starter-deck-big-mom-pirates-st07": 
+          url: *parkageDeckSt07
+          country: "FR"
+          language: "ENG"
+          currency: "EUR"
+          stock:
+            regex: *RegexStockParkage
+            type: "bool"
+          price: 
+            regex: *RegexPriceParkage
+            type: "string"
+        &lqdgDeckSt07 "https://lequotidiendugeek.fr/one-piece/2304-precommande-one-piece-card-game-big-mom-pirates-st07-en-300623.html":
+          url: *lqdgDeckSt07
+          country: "FR"
+          language: "ENG"
+          currency: "EUR"
+          stock:
+            regex: *RegexStocklqdg 
+            type: "bool"
+          price: 
+            regex: *RegexPricelqdg 
+            type: "string"
+
+      "One piece TCG Display ST08":
         &parkageDeckSt08 "https://www.parkage.com/fr/0988861-one-piece-card-game-starter-deck-monkey-d-luffy-st08": 
           url: *parkageDeckSt08
           country: "FR"
+          language: "ENG"
           currency: "EUR"
           stock:
-            url: *parkageDeckSt08
-            regex: <button type="button" class="btn btn-success (add-to-cart-button)" >
+            regex: *RegexStockParkage
             type: "bool"
           price: 
-            url: *parkageDeckSt08
-            regex: <div class="price">(.*) €<\/div>
+            regex: *RegexPriceParkage
+            type: "string"
+        &lqdgDeckSt08 "https://lequotidiendugeek.fr/one-piece/2302-precommande-one-piece-card-game-monkey-luffy-st08-en-110823.html":
+          url: *lqdgDeckSt08
+          country: "FR"
+          language: "ENG"
+          currency: "EUR"
+          stock:
+            regex: *RegexStocklqdg
+            type: "bool"
+          price: 
+            regex: *RegexPricelqdg
+            type: "string"
+
+      "One piece TCG Display ST09":
+        &parkageDeckSt09 "https://www.parkage.com/fr/0988866-one-piece-card-game-starter-deck-yamato-st09": 
+          url: *parkageDeckSt09
+          country: "FR"
+          language: "ENG"
+          currency: "EUR"
+          stock:
+            regex: *RegexStockParkage
+            type: "bool"
+          price: 
+            regex: *RegexPriceParkage
+            type: "string"
+        &lqdgDeckSt09 "https://lequotidiendugeek.fr/one-piece/2303-precommande-one-piece-card-game-yamato-st09-en-110823.html":
+          url: *lqdgDeckSt09
+          country: "FR"
+          language: "ENG"
+          currency: "EUR"
+          stock:
+            regex: *RegexStocklqdg
+            type: "bool"
+          price: 
+            regex: *RegexPricelqdg
             type: "string"
         
-
-      # &localhost "http://localhost:3838/aaaaaa": 
-      #   url: *localhost
-      #   label: "One piece TCG Display OP01 ENG"
-      #   country: "FR"
-      #   stock:
-      #     url: *localhost
-      #     isapi: false
-      #     apiparam: ""
-      #     regex: ""
-      #     value: 
-      #     type: "bool"
-      #   price: 
-      #     url: *localhost
-      #     isapi: false
-      #     apiparam: ""
-      #     regex: ""
-      #     value: 
-      #     type: "string"
-      #   currency: 
-      #     url: *localhost
-      #     isapi: false
-      #     apiparam: ""
-      #     regex: ""
-      #     value: 
-      #     type: "string"
-        
-      # &localhost2 "http://localhost:3838/bbbbb": 
-      #   url: *localhost2
-      #   label: "One piece TCG Display OP01 ENG"
-      #   country: "FR"
-      #   stock:
-      #     url: *localhost2
-      #     isapi: false
-      #     apiparam: ""
-      #     regex: ""
-      #     value: 
-      #     type: "bool"
-      #   price: 
-      #     url: *localhost2
-      #     isapi: false
-      #     apiparam: ""
-      #     regex: ""
-      #     value: 
-      #     type: "string"
-      #   currency: 
-      #     url: *localhost2
-      #     isapi: false
-      #     apiparam: ""
-      #     regex: ""
-      #     value: 
-      #     type: "string"
-
   &other "Other":
     name: Other
     locators: 
