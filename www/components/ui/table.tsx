@@ -96,12 +96,11 @@ const TableBody = ({ tableData, columns }) => {
       {tableData.map((data) => {
         return (
           <tr key={data.id}>
-            {columns.map(({ accessor, isBoolean }) => { console.log(data.id, accessor, isBoolean, data[accessor])
-              const tData = data[accessor] ? data[accessor] : "——";
+            {columns.map(({ accessor, isBoolean }) => {
               return <td key={accessor} className="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-100">
                 {isBoolean
-                  ? tData ? <Icons.yes className="h-4 w-4 text-green-400" /> : <Icons.no className="h-4 w-4 text-red-400" />
-                  : tData
+                  ? data[accessor] ? <Icons.yes className="h-4 w-4 text-green-400" /> : <Icons.no className="h-4 w-4 text-red-400" />
+                  : data[accessor] ? data[accessor] : "——"
                 }
               </td>;
             })}
