@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.outlined {
+  border: 0.01px solid #e5e7eb;
+}
+.dark\:outlined {
+  border: 0.01px solid #1F2739;
+}
