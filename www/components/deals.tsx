@@ -23,6 +23,9 @@ export const DealsTable = () => {
     .then(res => res.data)
     .then(data => data.map((d, i) => ({...d, id: i})))
     .then(data => setData(data))
+    .catch(err => {
+      console.log(err)
+    })
   }, [])
 
   return (

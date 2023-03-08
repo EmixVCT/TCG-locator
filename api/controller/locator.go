@@ -10,9 +10,6 @@ import (
 
 func Locator(w http.ResponseWriter, r *http.Request) {
 	locators := utils.GetConfig().Locators
-
-	log.Println("Loading collection:", locators)
 	log.Println("Number of Items:", len(locators))
-
 	render.Render(w, r, utils.Success("", utils.LocatorsRender(locators)))
 }

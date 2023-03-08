@@ -1,0 +1,16 @@
+name: "fantastik"
+country: "FR"
+currency: "EUR"
+stock:
+  regex: <span id="availability_value" class="label (label-success)">
+  type: "bool"
+price: 
+  regex: <span id="our_price_display" class="price" itemprop="price" content="([0-9\.]*)"
+  type: "string"
+
+urls:
+
+  "One piece TCG Display OP02 ENG":
+    language: "ENG"
+    url: "https://www.fantastik.fr/jeux-de-cartes/23267-boite-complete-booster-one-piece-card-game-anglais-paramount-war-op-02.html"
+

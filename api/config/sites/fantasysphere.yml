@@ -9,10 +9,24 @@ price:
   type: "string"
 
 urls:
-  "One piece TCG Display OP01":
+  "One piece TCG Display OP01 ENG":
     language: "ENG"
     url: "https://shop.fantasysphere.net/one-piece-tcg/10023764-one-piece-display-boite-de-24-boosters-romance-dawn-op-01-en-811039038205.html"
-  "One piece TCG Display OP02":
+
+  "One piece TCG Display OP02 ENG":
     language: "ENG"
     url: "https://shop.fantasysphere.net/one-piece-tcg/10024012--pre-commande-one-piece-display-boite-de-24-boosters-paramount-war-op-02-en-811039039097.html"
+
+  "One piece TCG Display OP02 JAP":
+    language: "JAP"
+    url: "https://shop.fantasysphere.net/one-piece-tcg/10024751-one-piece-display-boite-de-24-boosters-paramount-war-op-02-jp.html"
+
+  "One piece TCG Display OP03 ENG":
+    language: "ENG"
+    url: "https://shop.fantasysphere.net/one-piece-tcg/10024194--pre-commande-one-piece-display-boite-de-24-boosters-pillard-of-strength-op-03-en-810059780514.html"
+
+  "One piece TCG Display OP04 ENG":
+    language: "ENG"
+    url: "https://shop.fantasysphere.net/one-piece-tcg/10024805--pre-commande-one-piece-display-boite-de-24-boosters-kingdoms-of-intrigue-op-04-en-810059781993.html"
+    
 

@@ -1,0 +1,22 @@
+name: "Micromania"
+country: "FR"
+currency: "EUR"
+stock:
+  regex: <button data-gtm=".*" class="(add-to-cart) product-action-button w-100 btn button button-primary icon-triple" data-pid="[0-9]*">
+  type: "bool"
+price: 
+  regex: <span class="value" itemprop="price" content="([0-9\.]*)">
+  type: "string"
+
+urls:
+  "One piece TCG Display OP01 EN":
+    language: "ENG"
+    url: "https://www.micromania.fr/booster-one-piece-romance-dawn-op01-126654.html"
+
+  "One piece TCG Booster OP02 EN":
+    language: "ENG"
+    url: "https://www.micromania.fr/booster-one-piece-paramount-war-op02-128220.html"
+
+  "One piece TCG Deck ST05 EN":
+    language: "ENG"
+    url: "https://www.micromania.fr/starter-deck-one-piece-film-edition-st05-128683.html"

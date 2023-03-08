@@ -1,0 +1,25 @@
+name: "outpostbrussels"
+country: "BE"
+currency: "EUR"
+stock:
+  regex: <input type="number" id="Quantity" name="quantity" value="(1)" min="1" class="quantity-selector">
+  type: "bool"
+price: 
+  regex: <span id="ProductPrice" class="product-single__price" itemprop="price" content="([0-9\.]*)">
+  type: "string"
+
+urls:
+  "One piece TCG Display OP01 ENG":
+    language: "ENG"
+    url: "https://outpostbrussels.be/products/one-piece-card-game-romance-dawn-booster-display-op01-24-packs-en?_pos=4&_sid=9f513ac5b&_ss=r&variant=39960155848771"
+
+  "One piece TCG Display OP02 ENG":
+    language: "ENG"
+    url: "https://outpostbrussels.be/products/one-piece-card-game-paramount-war-op02-booster-display-24-packs-en?variant=40185938378819"
+
+  "One piece TCG Display OP03 ENG":
+    language: "ENG"
+    url: "https://outpostbrussels.be/products/one-piece-card-game-pillars-of-strength-op03-booster-display-24-packs-en?_pos=1&_sid=9f513ac5b&_ss=r"
+
+    
+

@@ -1,0 +1,18 @@
+name: "Fnac"
+country: "FR"
+currency: "EUR"
+stock:
+  regex: <span class="f-faPriceBox__price userPrice js-ProductBuy-standardCheckable checked" data-price="([0-9,]*)">
+  type: "bool"
+price: 
+  regex: <span class="f-faPriceBox__price userPrice js-ProductBuy-standardCheckable checked" data-price="([0-9,]*)">
+  type: "string"
+
+urls:
+  "One piece TCG Deck ST02 EN":
+    language: "ENG"
+    url: "https://www.fnac.com/Carte-a-collectionner-Bandai-One-Piece-JCC-Starter-Deck-Worst-Generation-ST02-EN/a17476840/w-4"
+  
+  "One piece TCG Booster OP01 EN":
+    language: "ENG"
+    url: "https://www.fnac.com/Carte-a-collectionner-Bandai-One-Piece-JCC-Booster-Romance-Dawn-OP01-EN/a17476838/w-4"

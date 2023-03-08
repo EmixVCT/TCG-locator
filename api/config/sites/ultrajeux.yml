@@ -9,10 +9,41 @@ price:
   type: "string"
 
 urls:
-  "One piece TCG Display OP01":
+  "One piece TCG Display OP01 EN":
     language: "ENG"
     url: "https://www.ultrajeux.com/produit-20576-boite-de-24-boosters-romance-dawn-op01-0811039038205.html"
-  "One piece TCG Display OP02":
+
+  "One piece TCG Display OP02 EN":
     language: "ENG"
     url: "https://www.ultrajeux.com/produit-21124-boite-de-24-boosters-paramount-war-op02-.html"
+  "One piece TCG Display OP03 EN":
+    language: "ENG"
+    url: "https://www.ultrajeux.com/produit-22097-boite-de-24-boosters-pillard-of-strength-op03-.html"
 
+  "One piece TCG Deck ST01 EN":
+    language: "ENG"
+    url: "https://www.ultrajeux.com/produit-20572-straw-hat-crew-starter-deck-st01-0811039038243.html"
+
+  "One piece TCG Deck ST02 EN":
+    language: "ENG"
+    url: "https://www.ultrajeux.com/produit-20573-worst-generation-starter-deck-st02-0811039038397.html"
+
+  "One piece TCG Deck ST03 EN":
+    language: "ENG"
+    url: "https://www.ultrajeux.com/produit-20571-the-seven-warlords-of-the-sea-starter-deck-st03-0811039038427.html"
+  
+  "One piece TCG Deck ST04 EN":
+    language: "ENG"
+    url: "https://www.ultrajeux.com/produit-20574-animal-kingdom-pirates-starter-deck-st04-0811039038458.html"
+
+  "One piece TCG Deck ST05 EN":
+    language: "ENG"
+    url: "https://www.ultrajeux.com/produit-21126-one-piece-card-game-film-edition-deck-st05-0811039038960.html"
+
+  "One piece TCG Deck ST06 EN":
+    language: "ENG"
+    url: "https://www.ultrajeux.com/produit-21125-one-piece-card-game-deck-navy-deck-st06-0811039039127.html"
+
+  "One piece TCG Deck ST07 EN":
+    language: "ENG"
+    url: "https://www.ultrajeux.com/produit-22401-one-piece-card-game-big-mom-pirates-deck-st07-.html"

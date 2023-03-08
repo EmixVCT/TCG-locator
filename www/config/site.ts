@@ -13,7 +13,7 @@ interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "TGS Locator",
+  name: "TCG Locator",
   description:
     "Find Trading Cards in Stock",
   mainNav: [
@@ -23,9 +23,9 @@ export const siteConfig: SiteConfig = {
     },
   ],
   links: {
-    twitter: "https://twitter.com/TGSLocator",
+    twitter: "https://twitter.com/TCGLocator",
     github: "https://github.com/EmixVCT/TCG-locator",
     docs: "#",
   },
-  apiEndpoint: "http://maximevincent.fr:3050/locators"
+  apiEndpoint: "https://api.tcglocator.xyz/locators"
 }

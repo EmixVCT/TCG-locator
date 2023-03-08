@@ -1,0 +1,31 @@
+name: "Lequotidiendugeek"
+country: "FR"
+currency: "EUR"
+stock:
+  regex: <button *\n* *class="btn btn-primary add-to-cart btn-lg btn-block btn-add-to-cart js-add-to-cart" *\n* *data-button-action="add-to-cart" *\n* *type="submit" *\n* *([^(disabled)]) *\n* *>
+  type: "bool"
+price: 
+  regex: <span class="current-price-display">([0-9,]*).*</span>
+  type: "string"
+
+urls:
+  "One piece TCG Deck ST05 EN":
+    language: "ENG"
+    url: "https://lequotidiendugeek.fr/one-piece/2243-precommande-one-piece-card-game-film-edition-starter-deck-st05-en-200123.html"
+
+  "One piece TCG Deck ST06 EN":
+    language: "ENG"
+    url: "https://lequotidiendugeek.fr/one-piece/2242-precommande-one-piece-card-game-navy-starter-deck-st06-en-100323.html"
+  
+  "One piece TCG Deck ST07 EN":
+    language: "ENG"
+    url: "https://lequotidiendugeek.fr/one-piece/2304-precommande-one-piece-card-game-big-mom-pirates-st07-en-300623.html"
+
+  "One piece TCG Deck ST08 EN":
+    language: "ENG"
+    url: "https://lequotidiendugeek.fr/one-piece/2302-precommande-one-piece-card-game-monkey-luffy-st08-en-110823.html"
+  
+  "One piece TCG Deck ST09 EN":
+    language: "ENG"
+    url: "https://lequotidiendugeek.fr/one-piece/2303-precommande-one-piece-card-game-yamato-st09-en-110823.html"
+

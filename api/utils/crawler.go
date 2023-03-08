@@ -69,6 +69,8 @@ func CrawlAll() {
 func Crawl(crawler *model.Crawler, url string) (interface{}, error) {
 
 	req, err := http.NewRequest("GET", url, nil)
+	req.Header.Add("User-Agent", `Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.27 Safari/537.36`)
+
 	if err != nil {
 		return nil, err
 	}

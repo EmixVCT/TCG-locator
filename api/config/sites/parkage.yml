@@ -1,0 +1,41 @@
+name: "Parkage"
+country: "FR"
+currency: "EUR"
+stock:
+  regex: <button type="button" class="btn btn-success (add-to-cart-button)" >
+  type: "bool"
+price: 
+  regex: <div class="price">([0-9,]*) €<\/div>
+  type: "string"
+
+urls:
+  "One piece TCG Display OP02 EN":
+    language: "ENG"
+    url: "https://www.parkage.com/fr/0976757-boite-de-24-boosters-one-piece-card-game-paramount-war-op02"
+
+  "One piece TCG Display OP03 EN":
+    language: "ENG"
+    url: "https://www.parkage.com/fr/0984340-boite-de-24-boosters-one-piece-card-game-pillars-of-strength-op03"
+  
+  "One piece TCG Display OP04 EN":
+    language: "ENG"
+    url: "https://www.parkage.com/fr/0992814-boite-de-24-boosters-one-piece-card-game-kingdoms-of-intrigue-op04"
+  
+  "One piece TCG Deck ST06 EN":
+    language: "ENG"
+    url: "https://www.parkage.com/fr/0976755-one-piece-card-game-starter-deck-absolute-justice-st06"
+  
+  "One piece TCG Deck ST07 EN":
+    language: "ENG"
+    url: "https://www.parkage.com/fr/0984338-one-piece-card-game-starter-deck-big-mom-pirates-st07"
+
+  "One piece TCG Deck ST08 EN":
+    language: "ENG"
+    url: "https://www.parkage.com/fr/0988861-one-piece-card-game-starter-deck-monkey-d-luffy-st08"
+  
+  "One piece TCG Deck ST09 EN":
+    language: "ENG"
+    url: "https://www.parkage.com/fr/0988866-one-piece-card-game-starter-deck-yamato-st09"
+
+
+

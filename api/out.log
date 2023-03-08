@@ -1,0 +1,1177 @@
+{0.0.1 true 0 */2 * * * * [fantasysphere.yml ultrajeux.yml micromania.yml parkage.yml lequotidiendugeek.yml fantastik.yml lerepairedudragon.yml] [0xc000076730 0xc000076780 0xc0000767d0 0xc000076820 0xc000076870 0xc0000768c0 0xc000076910] map[]}
+2023/03/08 22:37:46 TCG-Locator configuration file loaded, version: 0.0.1
+
+Crawl site:FantasySphere
+
+https://shop.fantasysphere.net/one-piece-tcg/10023764-one-piece-display-boite-de-24-boosters-romance-dawn-op-01-en-811039038205.html
+[CRAWLER] Price:90EUR Stock:false
+
+https://shop.fantasysphere.net/one-piece-tcg/10024012--pre-commande-one-piece-display-boite-de-24-boosters-paramount-war-op-02-en-811039039097.html
+[CRAWLER] Price:90EUR Stock:false
+
+https://shop.fantasysphere.net/one-piece-tcg/10024751-one-piece-display-boite-de-24-boosters-paramount-war-op-02-jp.html
+[CRAWLER] Price:90EUR Stock:true
+
+https://shop.fantasysphere.net/one-piece-tcg/10024194--pre-commande-one-piece-display-boite-de-24-boosters-pillard-of-strength-op-03-en-810059780514.html
+[CRAWLER] Price:90EUR Stock:false
+
+https://shop.fantasysphere.net/one-piece-tcg/10024805--pre-commande-one-piece-display-boite-de-24-boosters-kingdoms-of-intrigue-op-04-en-810059781993.html
+[CRAWLER] Price:90EUR Stock:true
+
+
+Crawl site:UltraJeux
+
+https://www.ultrajeux.com/produit-21124-boite-de-24-boosters-paramount-war-op02-.html
+[CRAWLER] Price:89,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-22097-boite-de-24-boosters-pillard-of-strength-op03-.html
+[CRAWLER] Price:99,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-20574-animal-kingdom-pirates-starter-deck-st04-0811039038458.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-21126-one-piece-card-game-film-edition-deck-st05-0811039038960.html
+[CRAWLER] Price:12,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-21125-one-piece-card-game-deck-navy-deck-st06-0811039039127.html
+[CRAWLER] Price:18,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-22401-one-piece-card-game-big-mom-pirates-deck-st07-.html
+[CRAWLER] Price:12,90EUR Stock:true
+
+https://www.ultrajeux.com/produit-20576-boite-de-24-boosters-romance-dawn-op01-0811039038205.html
+[CRAWLER] Price:89,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-20573-worst-generation-starter-deck-st02-0811039038397.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-20571-the-seven-warlords-of-the-sea-starter-deck-st03-0811039038427.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-20572-straw-hat-crew-starter-deck-st01-0811039038243.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+
+Crawl site:Micromania
+
+https://www.micromania.fr/booster-one-piece-romance-dawn-op01-126654.html
+[CRAWLER] Price:3.99EUR Stock:false
+
+https://www.micromania.fr/booster-one-piece-paramount-war-op02-128220.html
+[CRAWLER] Price:25.00EUR Stock:false
+
+https://www.micromania.fr/starter-deck-one-piece-film-edition-st05-128683.html
+[CRAWLER] Price:15.99EUR Stock:true
+
+
+Crawl site:Parkage
+
+https://www.parkage.com/fr/0984338-one-piece-card-game-starter-deck-big-mom-pirates-st07
+[CRAWLER] Price:14,90EUR Stock:false
+
+https://www.parkage.com/fr/0988861-one-piece-card-game-starter-deck-monkey-d-luffy-st08
+[CRAWLER] Price:14,90EUR Stock:true
+
+https://www.parkage.com/fr/0988866-one-piece-card-game-starter-deck-yamato-st09
+[CRAWLER] Price:14,90EUR Stock:true
+
+https://www.parkage.com/fr/0976757-boite-de-24-boosters-one-piece-card-game-paramount-war-op02
+[CRAWLER] Price:139,90EUR Stock:false
+
+https://www.parkage.com/fr/0984340-boite-de-24-boosters-one-piece-card-game-pillars-of-strength-op03
+[CRAWLER] Price:139,90EUR Stock:false
+
+https://www.parkage.com/fr/0992814-boite-de-24-boosters-one-piece-card-game-kingdoms-of-intrigue-op04
+[CRAWLER] Price:107,90EUR Stock:true
+
+https://www.parkage.com/fr/0976755-one-piece-card-game-starter-deck-absolute-justice-st06
+[CRAWLER] Price:19,90EUR Stock:true
+
+
+Crawl site:Lequotidiendugeek
+
+https://lequotidiendugeek.fr/one-piece/2302-precommande-one-piece-card-game-monkey-luffy-st08-en-110823.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2303-precommande-one-piece-card-game-yamato-st09-en-110823.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2243-precommande-one-piece-card-game-film-edition-starter-deck-st05-en-200123.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2242-precommande-one-piece-card-game-navy-starter-deck-st06-en-100323.html
+[CRAWLER] Price:15,90EUR Stock:false
+
+https://lequotidiendugeek.fr/one-piece/2304-precommande-one-piece-card-game-big-mom-pirates-st07-en-300623.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+
+Crawl site:fantastik
+
+https://www.fantastik.fr/jeux-de-cartes/23267-boite-complete-booster-one-piece-card-game-anglais-paramount-war-op-02.html
+[CRAWLER] Price:94.9EUR Stock:false
+
+
+Crawl site:Lerepairedudragon
+
+https://www.lerepairedudragon.fr/one-piece-card-game/95541-display-romance-dawn-de-24-boosters-op01-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.99EUR Stock:false
+
+https://www.lerepairedudragon.fr/one-piece-card-game/97530-display-paramount-war-de-24-boosters-op02-en-anglais-one-piece-card-game.html#
+[CRAWLER] Price:99.90EUR Stock:false
+
+https://www.lerepairedudragon.fr/one-piece-card-game/99253-display-pillars-of-strength-op03-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.90EUR Stock:false
+
+https://www.lerepairedudragon.fr/one-piece-card-game/100420-display-kingdoms-of-intrigue-op04-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.90EUR Stock:true
+
+Crawler started (cron  0 */2 * * * * )
+2023/03/08 22:38:03 Server running on port 3050
+
+Crawl site:FantasySphere
+
+https://shop.fantasysphere.net/one-piece-tcg/10024751-one-piece-display-boite-de-24-boosters-paramount-war-op-02-jp.html
+[CRAWLER] Price:90EUR Stock:true
+
+https://shop.fantasysphere.net/one-piece-tcg/10024194--pre-commande-one-piece-display-boite-de-24-boosters-pillard-of-strength-op-03-en-810059780514.html
+[CRAWLER] Price:90EUR Stock:false
+
+https://shop.fantasysphere.net/one-piece-tcg/10024805--pre-commande-one-piece-display-boite-de-24-boosters-kingdoms-of-intrigue-op-04-en-810059781993.html
+[CRAWLER] Price:90EUR Stock:true
+
+https://shop.fantasysphere.net/one-piece-tcg/10023764-one-piece-display-boite-de-24-boosters-romance-dawn-op-01-en-811039038205.html
+[CRAWLER] Price:90EUR Stock:false
+
+https://shop.fantasysphere.net/one-piece-tcg/10024012--pre-commande-one-piece-display-boite-de-24-boosters-paramount-war-op-02-en-811039039097.html
+[CRAWLER] Price:90EUR Stock:false
+
+
+Crawl site:UltraJeux
+
+https://www.ultrajeux.com/produit-20574-animal-kingdom-pirates-starter-deck-st04-0811039038458.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-21126-one-piece-card-game-film-edition-deck-st05-0811039038960.html
+[CRAWLER] Price:12,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-21125-one-piece-card-game-deck-navy-deck-st06-0811039039127.html
+[CRAWLER] Price:18,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-22401-one-piece-card-game-big-mom-pirates-deck-st07-.html
+[CRAWLER] Price:12,90EUR Stock:true
+
+https://www.ultrajeux.com/produit-20576-boite-de-24-boosters-romance-dawn-op01-0811039038205.html
+[CRAWLER] Price:89,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-21124-boite-de-24-boosters-paramount-war-op02-.html
+[CRAWLER] Price:89,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-22097-boite-de-24-boosters-pillard-of-strength-op03-.html
+[CRAWLER] Price:99,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-20572-straw-hat-crew-starter-deck-st01-0811039038243.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-20573-worst-generation-starter-deck-st02-0811039038397.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-20571-the-seven-warlords-of-the-sea-starter-deck-st03-0811039038427.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+
+Crawl site:Micromania
+
+https://www.micromania.fr/booster-one-piece-romance-dawn-op01-126654.html
+[CRAWLER] Price:3.99EUR Stock:false
+
+https://www.micromania.fr/booster-one-piece-paramount-war-op02-128220.html
+[CRAWLER] Price:25.00EUR Stock:false
+
+https://www.micromania.fr/starter-deck-one-piece-film-edition-st05-128683.html
+[CRAWLER] Price:15.99EUR Stock:true
+
+
+Crawl site:Parkage
+
+https://www.parkage.com/fr/0988861-one-piece-card-game-starter-deck-monkey-d-luffy-st08
+[CRAWLER] Price:14,90EUR Stock:true
+
+https://www.parkage.com/fr/0988866-one-piece-card-game-starter-deck-yamato-st09
+[CRAWLER] Price:14,90EUR Stock:true
+
+https://www.parkage.com/fr/0976757-boite-de-24-boosters-one-piece-card-game-paramount-war-op02
+[CRAWLER] Price:139,90EUR Stock:false
+
+https://www.parkage.com/fr/0984340-boite-de-24-boosters-one-piece-card-game-pillars-of-strength-op03
+[CRAWLER] Price:139,90EUR Stock:false
+
+https://www.parkage.com/fr/0992814-boite-de-24-boosters-one-piece-card-game-kingdoms-of-intrigue-op04
+[CRAWLER] Price:107,90EUR Stock:true
+
+https://www.parkage.com/fr/0976755-one-piece-card-game-starter-deck-absolute-justice-st06
+[CRAWLER] Price:19,90EUR Stock:true
+
+https://www.parkage.com/fr/0984338-one-piece-card-game-starter-deck-big-mom-pirates-st07
+[CRAWLER] Price:14,90EUR Stock:false
+
+
+Crawl site:Lequotidiendugeek
+
+https://lequotidiendugeek.fr/one-piece/2243-precommande-one-piece-card-game-film-edition-starter-deck-st05-en-200123.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2242-precommande-one-piece-card-game-navy-starter-deck-st06-en-100323.html
+[CRAWLER] Price:15,90EUR Stock:false
+
+https://lequotidiendugeek.fr/one-piece/2304-precommande-one-piece-card-game-big-mom-pirates-st07-en-300623.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2302-precommande-one-piece-card-game-monkey-luffy-st08-en-110823.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2303-precommande-one-piece-card-game-yamato-st09-en-110823.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+
+Crawl site:fantastik
+
+https://www.fantastik.fr/jeux-de-cartes/23267-boite-complete-booster-one-piece-card-game-anglais-paramount-war-op-02.html
+[CRAWLER] Price:94.9EUR Stock:false
+
+
+Crawl site:Lerepairedudragon
+
+https://www.lerepairedudragon.fr/one-piece-card-game/95541-display-romance-dawn-de-24-boosters-op01-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.99EUR Stock:false
+
+https://www.lerepairedudragon.fr/one-piece-card-game/97530-display-paramount-war-de-24-boosters-op02-en-anglais-one-piece-card-game.html#
+[CRAWLER] Price:99.90EUR Stock:false
+
+https://www.lerepairedudragon.fr/one-piece-card-game/99253-display-pillars-of-strength-op03-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.90EUR Stock:false
+
+https://www.lerepairedudragon.fr/one-piece-card-game/100420-display-kingdoms-of-intrigue-op04-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.90EUR Stock:true
+
+2023/03/08 22:40:49 "GET http://localhost:3050/ HTTP/1.1" from 127.0.0.1:44960 - 404 52B in 92.453µs
+
+Crawl site:FantasySphere
+
+https://shop.fantasysphere.net/one-piece-tcg/10023764-one-piece-display-boite-de-24-boosters-romance-dawn-op-01-en-811039038205.html
+[CRAWLER] Price:90EUR Stock:false
+
+https://shop.fantasysphere.net/one-piece-tcg/10024012--pre-commande-one-piece-display-boite-de-24-boosters-paramount-war-op-02-en-811039039097.html
+[CRAWLER] Price:90EUR Stock:false
+
+https://shop.fantasysphere.net/one-piece-tcg/10024751-one-piece-display-boite-de-24-boosters-paramount-war-op-02-jp.html
+[CRAWLER] Price:90EUR Stock:true
+
+https://shop.fantasysphere.net/one-piece-tcg/10024194--pre-commande-one-piece-display-boite-de-24-boosters-pillard-of-strength-op-03-en-810059780514.html
+[CRAWLER] Price:90EUR Stock:false
+
+https://shop.fantasysphere.net/one-piece-tcg/10024805--pre-commande-one-piece-display-boite-de-24-boosters-kingdoms-of-intrigue-op-04-en-810059781993.html
+[CRAWLER] Price:90EUR Stock:true
+
+
+Crawl site:UltraJeux
+
+https://www.ultrajeux.com/produit-20572-straw-hat-crew-starter-deck-st01-0811039038243.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-20573-worst-generation-starter-deck-st02-0811039038397.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-20571-the-seven-warlords-of-the-sea-starter-deck-st03-0811039038427.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-21126-one-piece-card-game-film-edition-deck-st05-0811039038960.html
+[CRAWLER] Price:12,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-21125-one-piece-card-game-deck-navy-deck-st06-0811039039127.html
+[CRAWLER] Price:18,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-22401-one-piece-card-game-big-mom-pirates-deck-st07-.html
+[CRAWLER] Price:12,90EUR Stock:true
+
+https://www.ultrajeux.com/produit-20576-boite-de-24-boosters-romance-dawn-op01-0811039038205.html
+[CRAWLER] Price:89,90EUR Stock:false
+
+2023/03/08 22:42:02 "GET http://localhost:3050/ HTTP/1.1" from 127.0.0.1:44972 - 404 52B in 44.573µs
+https://www.ultrajeux.com/produit-21124-boite-de-24-boosters-paramount-war-op02-.html
+[CRAWLER] Price:89,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-22097-boite-de-24-boosters-pillard-of-strength-op03-.html
+[CRAWLER] Price:99,90EUR Stock:false
+
+2023/03/08 22:42:03 "GET http://localhost:3050/favicon.ico HTTP/1.1" from 127.0.0.1:44984 - 404 52B in 42.42µs
+https://www.ultrajeux.com/produit-20574-animal-kingdom-pirates-starter-deck-st04-0811039038458.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+
+Crawl site:Micromania
+
+https://www.micromania.fr/booster-one-piece-romance-dawn-op01-126654.html
+[CRAWLER] Price:3.99EUR Stock:false
+
+https://www.micromania.fr/booster-one-piece-paramount-war-op02-128220.html
+[CRAWLER] Price:25.00EUR Stock:false
+
+https://www.micromania.fr/starter-deck-one-piece-film-edition-st05-128683.html
+[CRAWLER] Price:15.99EUR Stock:true
+
+
+Crawl site:Parkage
+
+https://www.parkage.com/fr/0976757-boite-de-24-boosters-one-piece-card-game-paramount-war-op02
+[CRAWLER] Price:139,90EUR Stock:false
+
+https://www.parkage.com/fr/0984340-boite-de-24-boosters-one-piece-card-game-pillars-of-strength-op03
+[CRAWLER] Price:139,90EUR Stock:false
+
+https://www.parkage.com/fr/0992814-boite-de-24-boosters-one-piece-card-game-kingdoms-of-intrigue-op04
+[CRAWLER] Price:107,90EUR Stock:true
+
+https://www.parkage.com/fr/0976755-one-piece-card-game-starter-deck-absolute-justice-st06
+[CRAWLER] Price:19,90EUR Stock:true
+
+https://www.parkage.com/fr/0984338-one-piece-card-game-starter-deck-big-mom-pirates-st07
+[CRAWLER] Price:14,90EUR Stock:false
+
+https://www.parkage.com/fr/0988861-one-piece-card-game-starter-deck-monkey-d-luffy-st08
+[CRAWLER] Price:14,90EUR Stock:true
+
+https://www.parkage.com/fr/0988866-one-piece-card-game-starter-deck-yamato-st09
+[CRAWLER] Price:14,90EUR Stock:true
+
+
+Crawl site:Lequotidiendugeek
+
+https://lequotidiendugeek.fr/one-piece/2243-precommande-one-piece-card-game-film-edition-starter-deck-st05-en-200123.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2242-precommande-one-piece-card-game-navy-starter-deck-st06-en-100323.html
+[CRAWLER] Price:15,90EUR Stock:false
+
+https://lequotidiendugeek.fr/one-piece/2304-precommande-one-piece-card-game-big-mom-pirates-st07-en-300623.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2302-precommande-one-piece-card-game-monkey-luffy-st08-en-110823.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2303-precommande-one-piece-card-game-yamato-st09-en-110823.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+
+Crawl site:fantastik
+
+https://www.fantastik.fr/jeux-de-cartes/23267-boite-complete-booster-one-piece-card-game-anglais-paramount-war-op-02.html
+[CRAWLER] Price:94.9EUR Stock:false
+
+
+Crawl site:Lerepairedudragon
+
+2023/03/08 22:42:11 "GET http://localhost:3050/ HTTP/1.1" from 127.0.0.1:44998 - 404 52B in 52.845µs
+https://www.lerepairedudragon.fr/one-piece-card-game/95541-display-romance-dawn-de-24-boosters-op01-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.99EUR Stock:false
+
+https://www.lerepairedudragon.fr/one-piece-card-game/97530-display-paramount-war-de-24-boosters-op02-en-anglais-one-piece-card-game.html#
+[CRAWLER] Price:99.90EUR Stock:false
+
+https://www.lerepairedudragon.fr/one-piece-card-game/99253-display-pillars-of-strength-op03-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.90EUR Stock:false
+
+https://www.lerepairedudragon.fr/one-piece-card-game/100420-display-kingdoms-of-intrigue-op04-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.90EUR Stock:true
+
+2023/03/08 22:42:56 Number of Items: 35
+2023/03/08 22:42:56 "GET http://localhost:3050/locators HTTP/1.1" from 127.0.0.1:45012 - 200 11901B in 479.322µs
+2023/03/08 22:43:00 "GET http://localhost:3050/ HTTP/1.1" from 127.0.0.1:45018 - 404 52B in 66.319µs
+2023/03/08 22:43:56 Number of Items: 35
+2023/03/08 22:43:56 Number of Items: 35
+2023/03/08 22:43:56 "GET http://localhost:3050/locators HTTP/1.1" from 127.0.0.1:45034 - 200 11901B in 11.875917ms
+2023/03/08 22:43:56 "GET http://localhost:3050/locators HTTP/1.1" from 127.0.0.1:45040 - 200 11901B in 12.360555ms
+
+Crawl site:FantasySphere
+
+https://shop.fantasysphere.net/one-piece-tcg/10024012--pre-commande-one-piece-display-boite-de-24-boosters-paramount-war-op-02-en-811039039097.html
+[CRAWLER] Price:90EUR Stock:false
+
+https://shop.fantasysphere.net/one-piece-tcg/10024751-one-piece-display-boite-de-24-boosters-paramount-war-op-02-jp.html
+[CRAWLER] Price:90EUR Stock:true
+
+https://shop.fantasysphere.net/one-piece-tcg/10024194--pre-commande-one-piece-display-boite-de-24-boosters-pillard-of-strength-op-03-en-810059780514.html
+[CRAWLER] Price:90EUR Stock:false
+
+https://shop.fantasysphere.net/one-piece-tcg/10024805--pre-commande-one-piece-display-boite-de-24-boosters-kingdoms-of-intrigue-op-04-en-810059781993.html
+[CRAWLER] Price:90EUR Stock:true
+
+https://shop.fantasysphere.net/one-piece-tcg/10023764-one-piece-display-boite-de-24-boosters-romance-dawn-op-01-en-811039038205.html
+[CRAWLER] Price:90EUR Stock:false
+
+
+Crawl site:UltraJeux
+
+https://www.ultrajeux.com/produit-20572-straw-hat-crew-starter-deck-st01-0811039038243.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-20573-worst-generation-starter-deck-st02-0811039038397.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-20571-the-seven-warlords-of-the-sea-starter-deck-st03-0811039038427.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-21125-one-piece-card-game-deck-navy-deck-st06-0811039039127.html
+[CRAWLER] Price:18,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-22401-one-piece-card-game-big-mom-pirates-deck-st07-.html
+[CRAWLER] Price:12,90EUR Stock:true
+
+https://www.ultrajeux.com/produit-20576-boite-de-24-boosters-romance-dawn-op01-0811039038205.html
+[CRAWLER] Price:89,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-21124-boite-de-24-boosters-paramount-war-op02-.html
+[CRAWLER] Price:89,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-22097-boite-de-24-boosters-pillard-of-strength-op03-.html
+[CRAWLER] Price:99,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-20574-animal-kingdom-pirates-starter-deck-st04-0811039038458.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-21126-one-piece-card-game-film-edition-deck-st05-0811039038960.html
+[CRAWLER] Price:12,90EUR Stock:false
+
+
+Crawl site:Micromania
+
+https://www.micromania.fr/booster-one-piece-romance-dawn-op01-126654.html
+[CRAWLER] Price:3.99EUR Stock:false
+
+https://www.micromania.fr/booster-one-piece-paramount-war-op02-128220.html
+[CRAWLER] Price:25.00EUR Stock:false
+
+https://www.micromania.fr/starter-deck-one-piece-film-edition-st05-128683.html
+[CRAWLER] Price:15.99EUR Stock:true
+
+
+Crawl site:Parkage
+
+https://www.parkage.com/fr/0992814-boite-de-24-boosters-one-piece-card-game-kingdoms-of-intrigue-op04
+[CRAWLER] Price:107,90EUR Stock:true
+
+https://www.parkage.com/fr/0976755-one-piece-card-game-starter-deck-absolute-justice-st06
+[CRAWLER] Price:19,90EUR Stock:true
+
+https://www.parkage.com/fr/0984338-one-piece-card-game-starter-deck-big-mom-pirates-st07
+[CRAWLER] Price:14,90EUR Stock:false
+
+https://www.parkage.com/fr/0988861-one-piece-card-game-starter-deck-monkey-d-luffy-st08
+[CRAWLER] Price:14,90EUR Stock:true
+
+https://www.parkage.com/fr/0988866-one-piece-card-game-starter-deck-yamato-st09
+[CRAWLER] Price:14,90EUR Stock:true
+
+https://www.parkage.com/fr/0976757-boite-de-24-boosters-one-piece-card-game-paramount-war-op02
+[CRAWLER] Price:139,90EUR Stock:false
+
+https://www.parkage.com/fr/0984340-boite-de-24-boosters-one-piece-card-game-pillars-of-strength-op03
+[CRAWLER] Price:139,90EUR Stock:false
+
+
+Crawl site:Lequotidiendugeek
+
+https://lequotidiendugeek.fr/one-piece/2243-precommande-one-piece-card-game-film-edition-starter-deck-st05-en-200123.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2242-precommande-one-piece-card-game-navy-starter-deck-st06-en-100323.html
+[CRAWLER] Price:15,90EUR Stock:false
+
+https://lequotidiendugeek.fr/one-piece/2304-precommande-one-piece-card-game-big-mom-pirates-st07-en-300623.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2302-precommande-one-piece-card-game-monkey-luffy-st08-en-110823.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2303-precommande-one-piece-card-game-yamato-st09-en-110823.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+
+Crawl site:fantastik
+
+https://www.fantastik.fr/jeux-de-cartes/23267-boite-complete-booster-one-piece-card-game-anglais-paramount-war-op-02.html
+[CRAWLER] Price:94.9EUR Stock:false
+
+
+Crawl site:Lerepairedudragon
+
+https://www.lerepairedudragon.fr/one-piece-card-game/100420-display-kingdoms-of-intrigue-op04-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.90EUR Stock:true
+
+https://www.lerepairedudragon.fr/one-piece-card-game/95541-display-romance-dawn-de-24-boosters-op01-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.99EUR Stock:false
+
+https://www.lerepairedudragon.fr/one-piece-card-game/97530-display-paramount-war-de-24-boosters-op02-en-anglais-one-piece-card-game.html#
+[CRAWLER] Price:99.90EUR Stock:false
+
+https://www.lerepairedudragon.fr/one-piece-card-game/99253-display-pillars-of-strength-op03-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.90EUR Stock:false
+
+2023/03/08 22:44:55 Number of Items: 35
+2023/03/08 22:44:55 "GET http://localhost:3050/locators HTTP/1.1" from 127.0.0.1:44972 - 200 11893B in 4.86135ms
+2023/03/08 22:44:55 Number of Items: 35
+2023/03/08 22:44:55 "GET http://localhost:3050/locators HTTP/1.1" from 127.0.0.1:45046 - 200 11893B in 8.071127ms
+2023/03/08 22:45:22 Number of Items: 35
+2023/03/08 22:45:22 "GET http://localhost:3050/locators HTTP/1.1" from 127.0.0.1:44984 - 200 11893B in 1.316484ms
+2023/03/08 22:45:22 Number of Items: 35
+2023/03/08 22:45:22 "GET http://localhost:3050/locators HTTP/1.1" from 127.0.0.1:44998 - 200 11893B in 172.481µs
+2023/03/08 22:45:53 Number of Items: 35
+2023/03/08 22:45:53 "GET http://localhost:3050/locators HTTP/1.1" from 127.0.0.1:45012 - 200 11893B in 236.105µs
+2023/03/08 22:45:53 Number of Items: 35
+2023/03/08 22:45:53 "GET http://localhost:3050/locators HTTP/1.1" from 127.0.0.1:45018 - 200 11893B in 178.358µs
+
+Crawl site:FantasySphere
+
+https://shop.fantasysphere.net/one-piece-tcg/10024012--pre-commande-one-piece-display-boite-de-24-boosters-paramount-war-op-02-en-811039039097.html
+[CRAWLER] Price:90EUR Stock:false
+
+https://shop.fantasysphere.net/one-piece-tcg/10024751-one-piece-display-boite-de-24-boosters-paramount-war-op-02-jp.html
+[CRAWLER] Price:90EUR Stock:true
+
+https://shop.fantasysphere.net/one-piece-tcg/10024194--pre-commande-one-piece-display-boite-de-24-boosters-pillard-of-strength-op-03-en-810059780514.html
+[CRAWLER] Price:90EUR Stock:false
+
+https://shop.fantasysphere.net/one-piece-tcg/10024805--pre-commande-one-piece-display-boite-de-24-boosters-kingdoms-of-intrigue-op-04-en-810059781993.html
+[CRAWLER] Price:90EUR Stock:true
+
+https://shop.fantasysphere.net/one-piece-tcg/10023764-one-piece-display-boite-de-24-boosters-romance-dawn-op-01-en-811039038205.html
+[CRAWLER] Price:90EUR Stock:false
+
+
+Crawl site:UltraJeux
+
+https://www.ultrajeux.com/produit-22097-boite-de-24-boosters-pillard-of-strength-op03-.html
+[CRAWLER] Price:99,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-20574-animal-kingdom-pirates-starter-deck-st04-0811039038458.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-21126-one-piece-card-game-film-edition-deck-st05-0811039038960.html
+[CRAWLER] Price:12,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-21125-one-piece-card-game-deck-navy-deck-st06-0811039039127.html
+[CRAWLER] Price:18,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-22401-one-piece-card-game-big-mom-pirates-deck-st07-.html
+[CRAWLER] Price:12,90EUR Stock:true
+
+https://www.ultrajeux.com/produit-20576-boite-de-24-boosters-romance-dawn-op01-0811039038205.html
+[CRAWLER] Price:89,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-21124-boite-de-24-boosters-paramount-war-op02-.html
+[CRAWLER] Price:89,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-20571-the-seven-warlords-of-the-sea-starter-deck-st03-0811039038427.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-20572-straw-hat-crew-starter-deck-st01-0811039038243.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-20573-worst-generation-starter-deck-st02-0811039038397.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+
+Crawl site:Micromania
+
+https://www.micromania.fr/booster-one-piece-romance-dawn-op01-126654.html
+[CRAWLER] Price:3.99EUR Stock:false
+
+https://www.micromania.fr/booster-one-piece-paramount-war-op02-128220.html
+[CRAWLER] Price:25.00EUR Stock:false
+
+https://www.micromania.fr/starter-deck-one-piece-film-edition-st05-128683.html
+[CRAWLER] Price:15.99EUR Stock:true
+
+
+Crawl site:Parkage
+
+https://www.parkage.com/fr/0992814-boite-de-24-boosters-one-piece-card-game-kingdoms-of-intrigue-op04
+[CRAWLER] Price:107,90EUR Stock:true
+
+https://www.parkage.com/fr/0976755-one-piece-card-game-starter-deck-absolute-justice-st06
+[CRAWLER] Price:19,90EUR Stock:true
+
+https://www.parkage.com/fr/0984338-one-piece-card-game-starter-deck-big-mom-pirates-st07
+[CRAWLER] Price:14,90EUR Stock:false
+
+https://www.parkage.com/fr/0988861-one-piece-card-game-starter-deck-monkey-d-luffy-st08
+[CRAWLER] Price:14,90EUR Stock:true
+
+https://www.parkage.com/fr/0988866-one-piece-card-game-starter-deck-yamato-st09
+[CRAWLER] Price:14,90EUR Stock:true
+
+https://www.parkage.com/fr/0976757-boite-de-24-boosters-one-piece-card-game-paramount-war-op02
+[CRAWLER] Price:139,90EUR Stock:false
+
+https://www.parkage.com/fr/0984340-boite-de-24-boosters-one-piece-card-game-pillars-of-strength-op03
+[CRAWLER] Price:139,90EUR Stock:false
+
+
+Crawl site:Lequotidiendugeek
+
+https://lequotidiendugeek.fr/one-piece/2243-precommande-one-piece-card-game-film-edition-starter-deck-st05-en-200123.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2242-precommande-one-piece-card-game-navy-starter-deck-st06-en-100323.html
+[CRAWLER] Price:15,90EUR Stock:false
+
+https://lequotidiendugeek.fr/one-piece/2304-precommande-one-piece-card-game-big-mom-pirates-st07-en-300623.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2302-precommande-one-piece-card-game-monkey-luffy-st08-en-110823.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2303-precommande-one-piece-card-game-yamato-st09-en-110823.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+
+Crawl site:fantastik
+
+https://www.fantastik.fr/jeux-de-cartes/23267-boite-complete-booster-one-piece-card-game-anglais-paramount-war-op-02.html
+[CRAWLER] Price:94.9EUR Stock:false
+
+
+Crawl site:Lerepairedudragon
+
+https://www.lerepairedudragon.fr/one-piece-card-game/95541-display-romance-dawn-de-24-boosters-op01-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.99EUR Stock:false
+
+https://www.lerepairedudragon.fr/one-piece-card-game/97530-display-paramount-war-de-24-boosters-op02-en-anglais-one-piece-card-game.html#
+[CRAWLER] Price:99.90EUR Stock:false
+
+https://www.lerepairedudragon.fr/one-piece-card-game/99253-display-pillars-of-strength-op03-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.90EUR Stock:false
+
+2023/03/08 22:46:15 Number of Items: 35
+2023/03/08 22:46:15 "GET http://localhost:3050/locators HTTP/1.1" from 127.0.0.1:45034 - 200 11875B in 786.197µs
+2023/03/08 22:46:15 Number of Items: 35
+2023/03/08 22:46:15 "GET http://localhost:3050/locators HTTP/1.1" from 127.0.0.1:45040 - 200 11875B in 658.85µs
+https://www.lerepairedudragon.fr/one-piece-card-game/100420-display-kingdoms-of-intrigue-op04-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.90EUR Stock:true
+
+2023/03/08 22:46:25 Number of Items: 35
+2023/03/08 22:46:25 "GET http://localhost:3050/locators HTTP/1.1" from 127.0.0.1:45046 - 200 11898B in 497.514µs
+2023/03/08 22:46:25 Number of Items: 35
+2023/03/08 22:46:25 "GET http://localhost:3050/locators HTTP/1.1" from 127.0.0.1:44972 - 200 11898B in 176.636µs
+2023/03/08 22:47:18 Number of Items: 35
+2023/03/08 22:47:18 "GET http://localhost:3050/locators HTTP/1.1" from 127.0.0.1:44984 - 200 11898B in 287.477µs
+2023/03/08 22:47:18 Number of Items: 35
+2023/03/08 22:47:18 "GET http://localhost:3050/locators HTTP/1.1" from 127.0.0.1:44984 - 200 11898B in 223.688µs
+2023/03/08 22:47:18 Number of Items: 35
+2023/03/08 22:47:18 "GET http://localhost:3050/locators HTTP/1.1" from 127.0.0.1:44984 - 200 11898B in 1.426182ms
+
+Crawl site:FantasySphere
+
+https://shop.fantasysphere.net/one-piece-tcg/10024194--pre-commande-one-piece-display-boite-de-24-boosters-pillard-of-strength-op-03-en-810059780514.html
+[CRAWLER] Price:90EUR Stock:false
+
+https://shop.fantasysphere.net/one-piece-tcg/10024805--pre-commande-one-piece-display-boite-de-24-boosters-kingdoms-of-intrigue-op-04-en-810059781993.html
+[CRAWLER] Price:90EUR Stock:true
+
+https://shop.fantasysphere.net/one-piece-tcg/10023764-one-piece-display-boite-de-24-boosters-romance-dawn-op-01-en-811039038205.html
+[CRAWLER] Price:90EUR Stock:false
+
+https://shop.fantasysphere.net/one-piece-tcg/10024012--pre-commande-one-piece-display-boite-de-24-boosters-paramount-war-op-02-en-811039039097.html
+[CRAWLER] Price:90EUR Stock:false
+
+https://shop.fantasysphere.net/one-piece-tcg/10024751-one-piece-display-boite-de-24-boosters-paramount-war-op-02-jp.html
+[CRAWLER] Price:90EUR Stock:true
+
+
+Crawl site:UltraJeux
+
+https://www.ultrajeux.com/produit-20571-the-seven-warlords-of-the-sea-starter-deck-st03-0811039038427.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-20572-straw-hat-crew-starter-deck-st01-0811039038243.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-20573-worst-generation-starter-deck-st02-0811039038397.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-22097-boite-de-24-boosters-pillard-of-strength-op03-.html
+[CRAWLER] Price:99,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-20574-animal-kingdom-pirates-starter-deck-st04-0811039038458.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-21126-one-piece-card-game-film-edition-deck-st05-0811039038960.html
+[CRAWLER] Price:12,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-21125-one-piece-card-game-deck-navy-deck-st06-0811039039127.html
+[CRAWLER] Price:18,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-22401-one-piece-card-game-big-mom-pirates-deck-st07-.html
+[CRAWLER] Price:12,90EUR Stock:true
+
+https://www.ultrajeux.com/produit-20576-boite-de-24-boosters-romance-dawn-op01-0811039038205.html
+[CRAWLER] Price:89,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-21124-boite-de-24-boosters-paramount-war-op02-.html
+[CRAWLER] Price:89,90EUR Stock:false
+
+
+Crawl site:Micromania
+
+https://www.micromania.fr/booster-one-piece-romance-dawn-op01-126654.html
+[CRAWLER] Price:3.99EUR Stock:false
+
+https://www.micromania.fr/booster-one-piece-paramount-war-op02-128220.html
+[CRAWLER] Price:25.00EUR Stock:false
+
+https://www.micromania.fr/starter-deck-one-piece-film-edition-st05-128683.html
+[CRAWLER] Price:15.99EUR Stock:true
+
+
+Crawl site:Parkage
+
+https://www.parkage.com/fr/0988866-one-piece-card-game-starter-deck-yamato-st09
+[CRAWLER] Price:14,90EUR Stock:true
+
+https://www.parkage.com/fr/0976757-boite-de-24-boosters-one-piece-card-game-paramount-war-op02
+[CRAWLER] Price:139,90EUR Stock:false
+
+https://www.parkage.com/fr/0984340-boite-de-24-boosters-one-piece-card-game-pillars-of-strength-op03
+[CRAWLER] Price:139,90EUR Stock:false
+
+https://www.parkage.com/fr/0992814-boite-de-24-boosters-one-piece-card-game-kingdoms-of-intrigue-op04
+[CRAWLER] Price:107,90EUR Stock:true
+
+https://www.parkage.com/fr/0976755-one-piece-card-game-starter-deck-absolute-justice-st06
+[CRAWLER] Price:19,90EUR Stock:true
+
+https://www.parkage.com/fr/0984338-one-piece-card-game-starter-deck-big-mom-pirates-st07
+[CRAWLER] Price:14,90EUR Stock:false
+
+https://www.parkage.com/fr/0988861-one-piece-card-game-starter-deck-monkey-d-luffy-st08
+[CRAWLER] Price:14,90EUR Stock:true
+
+
+Crawl site:Lequotidiendugeek
+
+https://lequotidiendugeek.fr/one-piece/2243-precommande-one-piece-card-game-film-edition-starter-deck-st05-en-200123.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2242-precommande-one-piece-card-game-navy-starter-deck-st06-en-100323.html
+[CRAWLER] Price:15,90EUR Stock:false
+
+https://lequotidiendugeek.fr/one-piece/2304-precommande-one-piece-card-game-big-mom-pirates-st07-en-300623.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2302-precommande-one-piece-card-game-monkey-luffy-st08-en-110823.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2303-precommande-one-piece-card-game-yamato-st09-en-110823.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+
+Crawl site:fantastik
+
+https://www.fantastik.fr/jeux-de-cartes/23267-boite-complete-booster-one-piece-card-game-anglais-paramount-war-op-02.html
+[CRAWLER] Price:94.9EUR Stock:false
+
+
+Crawl site:Lerepairedudragon
+
+https://www.lerepairedudragon.fr/one-piece-card-game/95541-display-romance-dawn-de-24-boosters-op01-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.99EUR Stock:false
+
+https://www.lerepairedudragon.fr/one-piece-card-game/97530-display-paramount-war-de-24-boosters-op02-en-anglais-one-piece-card-game.html#
+[CRAWLER] Price:99.90EUR Stock:false
+
+https://www.lerepairedudragon.fr/one-piece-card-game/99253-display-pillars-of-strength-op03-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.90EUR Stock:false
+
+https://www.lerepairedudragon.fr/one-piece-card-game/100420-display-kingdoms-of-intrigue-op04-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.90EUR Stock:true
+
+2023/03/08 22:49:48 Number of Items: 35
+2023/03/08 22:49:48 "GET http://localhost:3050/locators HTTP/1.1" from 127.0.0.1:44998 - 200 11897B in 263.356µs
+
+Crawl site:FantasySphere
+
+https://shop.fantasysphere.net/one-piece-tcg/10024751-one-piece-display-boite-de-24-boosters-paramount-war-op-02-jp.html
+[CRAWLER] Price:90EUR Stock:true
+
+https://shop.fantasysphere.net/one-piece-tcg/10024194--pre-commande-one-piece-display-boite-de-24-boosters-pillard-of-strength-op-03-en-810059780514.html
+[CRAWLER] Price:90EUR Stock:false
+
+https://shop.fantasysphere.net/one-piece-tcg/10024805--pre-commande-one-piece-display-boite-de-24-boosters-kingdoms-of-intrigue-op-04-en-810059781993.html
+[CRAWLER] Price:90EUR Stock:true
+
+https://shop.fantasysphere.net/one-piece-tcg/10023764-one-piece-display-boite-de-24-boosters-romance-dawn-op-01-en-811039038205.html
+[CRAWLER] Price:90EUR Stock:false
+
+https://shop.fantasysphere.net/one-piece-tcg/10024012--pre-commande-one-piece-display-boite-de-24-boosters-paramount-war-op-02-en-811039039097.html
+[CRAWLER] Price:90EUR Stock:false
+
+
+Crawl site:UltraJeux
+
+https://www.ultrajeux.com/produit-21125-one-piece-card-game-deck-navy-deck-st06-0811039039127.html
+[CRAWLER] Price:18,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-22401-one-piece-card-game-big-mom-pirates-deck-st07-.html
+[CRAWLER] Price:12,90EUR Stock:true
+
+https://www.ultrajeux.com/produit-20576-boite-de-24-boosters-romance-dawn-op01-0811039038205.html
+[CRAWLER] Price:89,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-21124-boite-de-24-boosters-paramount-war-op02-.html
+[CRAWLER] Price:89,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-22097-boite-de-24-boosters-pillard-of-strength-op03-.html
+[CRAWLER] Price:99,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-20574-animal-kingdom-pirates-starter-deck-st04-0811039038458.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-21126-one-piece-card-game-film-edition-deck-st05-0811039038960.html
+[CRAWLER] Price:12,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-20572-straw-hat-crew-starter-deck-st01-0811039038243.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-20573-worst-generation-starter-deck-st02-0811039038397.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-20571-the-seven-warlords-of-the-sea-starter-deck-st03-0811039038427.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+
+Crawl site:Micromania
+
+https://www.micromania.fr/booster-one-piece-romance-dawn-op01-126654.html
+[CRAWLER] Price:3.99EUR Stock:false
+
+https://www.micromania.fr/booster-one-piece-paramount-war-op02-128220.html
+[CRAWLER] Price:25.00EUR Stock:false
+
+https://www.micromania.fr/starter-deck-one-piece-film-edition-st05-128683.html
+[CRAWLER] Price:15.99EUR Stock:true
+
+
+Crawl site:Parkage
+
+https://www.parkage.com/fr/0992814-boite-de-24-boosters-one-piece-card-game-kingdoms-of-intrigue-op04
+[CRAWLER] Price:107,90EUR Stock:true
+
+https://www.parkage.com/fr/0976755-one-piece-card-game-starter-deck-absolute-justice-st06
+[CRAWLER] Price:19,90EUR Stock:true
+
+https://www.parkage.com/fr/0984338-one-piece-card-game-starter-deck-big-mom-pirates-st07
+[CRAWLER] Price:14,90EUR Stock:false
+
+https://www.parkage.com/fr/0988861-one-piece-card-game-starter-deck-monkey-d-luffy-st08
+[CRAWLER] Price:14,90EUR Stock:true
+
+https://www.parkage.com/fr/0988866-one-piece-card-game-starter-deck-yamato-st09
+[CRAWLER] Price:14,90EUR Stock:true
+
+https://www.parkage.com/fr/0976757-boite-de-24-boosters-one-piece-card-game-paramount-war-op02
+[CRAWLER] Price:139,90EUR Stock:false
+
+https://www.parkage.com/fr/0984340-boite-de-24-boosters-one-piece-card-game-pillars-of-strength-op03
+[CRAWLER] Price:139,90EUR Stock:false
+
+
+Crawl site:Lequotidiendugeek
+
+https://lequotidiendugeek.fr/one-piece/2243-precommande-one-piece-card-game-film-edition-starter-deck-st05-en-200123.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2242-precommande-one-piece-card-game-navy-starter-deck-st06-en-100323.html
+[CRAWLER] Price:15,90EUR Stock:false
+
+https://lequotidiendugeek.fr/one-piece/2304-precommande-one-piece-card-game-big-mom-pirates-st07-en-300623.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2302-precommande-one-piece-card-game-monkey-luffy-st08-en-110823.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2303-precommande-one-piece-card-game-yamato-st09-en-110823.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+
+Crawl site:fantastik
+
+https://www.fantastik.fr/jeux-de-cartes/23267-boite-complete-booster-one-piece-card-game-anglais-paramount-war-op-02.html
+[CRAWLER] Price:94.9EUR Stock:false
+
+
+Crawl site:Lerepairedudragon
+
+https://www.lerepairedudragon.fr/one-piece-card-game/99253-display-pillars-of-strength-op03-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.90EUR Stock:false
+
+https://www.lerepairedudragon.fr/one-piece-card-game/100420-display-kingdoms-of-intrigue-op04-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.90EUR Stock:true
+
+https://www.lerepairedudragon.fr/one-piece-card-game/95541-display-romance-dawn-de-24-boosters-op01-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.99EUR Stock:false
+
+https://www.lerepairedudragon.fr/one-piece-card-game/97530-display-paramount-war-de-24-boosters-op02-en-anglais-one-piece-card-game.html#
+[CRAWLER] Price:99.90EUR Stock:false
+
+
+Crawl site:FantasySphere
+
+https://shop.fantasysphere.net/one-piece-tcg/10023764-one-piece-display-boite-de-24-boosters-romance-dawn-op-01-en-811039038205.html
+[CRAWLER] Price:90EUR Stock:false
+
+https://shop.fantasysphere.net/one-piece-tcg/10024012--pre-commande-one-piece-display-boite-de-24-boosters-paramount-war-op-02-en-811039039097.html
+[CRAWLER] Price:90EUR Stock:false
+
+https://shop.fantasysphere.net/one-piece-tcg/10024751-one-piece-display-boite-de-24-boosters-paramount-war-op-02-jp.html
+[CRAWLER] Price:90EUR Stock:true
+
+https://shop.fantasysphere.net/one-piece-tcg/10024194--pre-commande-one-piece-display-boite-de-24-boosters-pillard-of-strength-op-03-en-810059780514.html
+[CRAWLER] Price:90EUR Stock:false
+
+https://shop.fantasysphere.net/one-piece-tcg/10024805--pre-commande-one-piece-display-boite-de-24-boosters-kingdoms-of-intrigue-op-04-en-810059781993.html
+[CRAWLER] Price:90EUR Stock:true
+
+
+Crawl site:UltraJeux
+
+https://www.ultrajeux.com/produit-21124-boite-de-24-boosters-paramount-war-op02-.html
+[CRAWLER] Price:89,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-22097-boite-de-24-boosters-pillard-of-strength-op03-.html
+[CRAWLER] Price:99,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-20574-animal-kingdom-pirates-starter-deck-st04-0811039038458.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-21126-one-piece-card-game-film-edition-deck-st05-0811039038960.html
+[CRAWLER] Price:12,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-21125-one-piece-card-game-deck-navy-deck-st06-0811039039127.html
+[CRAWLER] Price:18,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-22401-one-piece-card-game-big-mom-pirates-deck-st07-.html
+[CRAWLER] Price:12,90EUR Stock:true
+
+https://www.ultrajeux.com/produit-20576-boite-de-24-boosters-romance-dawn-op01-0811039038205.html
+[CRAWLER] Price:89,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-20573-worst-generation-starter-deck-st02-0811039038397.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-20571-the-seven-warlords-of-the-sea-starter-deck-st03-0811039038427.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-20572-straw-hat-crew-starter-deck-st01-0811039038243.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+
+Crawl site:Micromania
+
+https://www.micromania.fr/booster-one-piece-romance-dawn-op01-126654.html
+[CRAWLER] Price:3.99EUR Stock:false
+
+https://www.micromania.fr/booster-one-piece-paramount-war-op02-128220.html
+[CRAWLER] Price:25.00EUR Stock:false
+
+https://www.micromania.fr/starter-deck-one-piece-film-edition-st05-128683.html
+[CRAWLER] Price:15.99EUR Stock:true
+
+
+Crawl site:Parkage
+
+https://www.parkage.com/fr/0992814-boite-de-24-boosters-one-piece-card-game-kingdoms-of-intrigue-op04
+[CRAWLER] Price:107,90EUR Stock:true
+
+https://www.parkage.com/fr/0976755-one-piece-card-game-starter-deck-absolute-justice-st06
+[CRAWLER] Price:19,90EUR Stock:true
+
+https://www.parkage.com/fr/0984338-one-piece-card-game-starter-deck-big-mom-pirates-st07
+[CRAWLER] Price:14,90EUR Stock:false
+
+https://www.parkage.com/fr/0988861-one-piece-card-game-starter-deck-monkey-d-luffy-st08
+[CRAWLER] Price:14,90EUR Stock:true
+
+https://www.parkage.com/fr/0988866-one-piece-card-game-starter-deck-yamato-st09
+[CRAWLER] Price:14,90EUR Stock:true
+
+https://www.parkage.com/fr/0976757-boite-de-24-boosters-one-piece-card-game-paramount-war-op02
+[CRAWLER] Price:139,90EUR Stock:false
+
+https://www.parkage.com/fr/0984340-boite-de-24-boosters-one-piece-card-game-pillars-of-strength-op03
+[CRAWLER] Price:139,90EUR Stock:false
+
+
+Crawl site:Lequotidiendugeek
+
+https://lequotidiendugeek.fr/one-piece/2302-precommande-one-piece-card-game-monkey-luffy-st08-en-110823.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2303-precommande-one-piece-card-game-yamato-st09-en-110823.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2243-precommande-one-piece-card-game-film-edition-starter-deck-st05-en-200123.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2242-precommande-one-piece-card-game-navy-starter-deck-st06-en-100323.html
+[CRAWLER] Price:15,90EUR Stock:false
+
+https://lequotidiendugeek.fr/one-piece/2304-precommande-one-piece-card-game-big-mom-pirates-st07-en-300623.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+
+Crawl site:fantastik
+
+https://www.fantastik.fr/jeux-de-cartes/23267-boite-complete-booster-one-piece-card-game-anglais-paramount-war-op-02.html
+[CRAWLER] Price:94.9EUR Stock:false
+
+
+Crawl site:Lerepairedudragon
+
+https://www.lerepairedudragon.fr/one-piece-card-game/95541-display-romance-dawn-de-24-boosters-op01-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.99EUR Stock:false
+
+https://www.lerepairedudragon.fr/one-piece-card-game/97530-display-paramount-war-de-24-boosters-op02-en-anglais-one-piece-card-game.html#
+[CRAWLER] Price:99.90EUR Stock:false
+
+https://www.lerepairedudragon.fr/one-piece-card-game/99253-display-pillars-of-strength-op03-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.90EUR Stock:false
+
+https://www.lerepairedudragon.fr/one-piece-card-game/100420-display-kingdoms-of-intrigue-op04-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.90EUR Stock:true
+
+
+Crawl site:FantasySphere
+
+https://shop.fantasysphere.net/one-piece-tcg/10023764-one-piece-display-boite-de-24-boosters-romance-dawn-op-01-en-811039038205.html
+[CRAWLER] Price:90EUR Stock:false
+
+https://shop.fantasysphere.net/one-piece-tcg/10024012--pre-commande-one-piece-display-boite-de-24-boosters-paramount-war-op-02-en-811039039097.html
+[CRAWLER] Price:90EUR Stock:false
+
+https://shop.fantasysphere.net/one-piece-tcg/10024751-one-piece-display-boite-de-24-boosters-paramount-war-op-02-jp.html
+[CRAWLER] Price:90EUR Stock:true
+
+https://shop.fantasysphere.net/one-piece-tcg/10024194--pre-commande-one-piece-display-boite-de-24-boosters-pillard-of-strength-op-03-en-810059780514.html
+[CRAWLER] Price:90EUR Stock:false
+
+https://shop.fantasysphere.net/one-piece-tcg/10024805--pre-commande-one-piece-display-boite-de-24-boosters-kingdoms-of-intrigue-op-04-en-810059781993.html
+[CRAWLER] Price:90EUR Stock:true
+
+
+Crawl site:UltraJeux
+
+https://www.ultrajeux.com/produit-20572-straw-hat-crew-starter-deck-st01-0811039038243.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-20573-worst-generation-starter-deck-st02-0811039038397.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-20571-the-seven-warlords-of-the-sea-starter-deck-st03-0811039038427.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-20576-boite-de-24-boosters-romance-dawn-op01-0811039038205.html
+[CRAWLER] Price:89,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-21124-boite-de-24-boosters-paramount-war-op02-.html
+[CRAWLER] Price:89,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-22097-boite-de-24-boosters-pillard-of-strength-op03-.html
+[CRAWLER] Price:99,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-20574-animal-kingdom-pirates-starter-deck-st04-0811039038458.html
+[CRAWLER] Price:12,15EUR Stock:false
+
+https://www.ultrajeux.com/produit-21126-one-piece-card-game-film-edition-deck-st05-0811039038960.html
+[CRAWLER] Price:12,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-21125-one-piece-card-game-deck-navy-deck-st06-0811039039127.html
+[CRAWLER] Price:18,90EUR Stock:false
+
+https://www.ultrajeux.com/produit-22401-one-piece-card-game-big-mom-pirates-deck-st07-.html
+[CRAWLER] Price:12,90EUR Stock:true
+
+
+Crawl site:Micromania
+
+https://www.micromania.fr/booster-one-piece-romance-dawn-op01-126654.html
+[CRAWLER] Price:3.99EUR Stock:false
+
+https://www.micromania.fr/booster-one-piece-paramount-war-op02-128220.html
+[CRAWLER] Price:25.00EUR Stock:false
+
+https://www.micromania.fr/starter-deck-one-piece-film-edition-st05-128683.html
+[CRAWLER] Price:15.99EUR Stock:true
+
+
+Crawl site:Parkage
+
+https://www.parkage.com/fr/0976757-boite-de-24-boosters-one-piece-card-game-paramount-war-op02
+[CRAWLER] Price:139,90EUR Stock:false
+
+https://www.parkage.com/fr/0984340-boite-de-24-boosters-one-piece-card-game-pillars-of-strength-op03
+[CRAWLER] Price:139,90EUR Stock:false
+
+https://www.parkage.com/fr/0992814-boite-de-24-boosters-one-piece-card-game-kingdoms-of-intrigue-op04
+[CRAWLER] Price:107,90EUR Stock:true
+
+https://www.parkage.com/fr/0976755-one-piece-card-game-starter-deck-absolute-justice-st06
+[CRAWLER] Price:19,90EUR Stock:true
+
+https://www.parkage.com/fr/0984338-one-piece-card-game-starter-deck-big-mom-pirates-st07
+[CRAWLER] Price:14,90EUR Stock:false
+
+https://www.parkage.com/fr/0988861-one-piece-card-game-starter-deck-monkey-d-luffy-st08
+[CRAWLER] Price:14,90EUR Stock:true
+
+https://www.parkage.com/fr/0988866-one-piece-card-game-starter-deck-yamato-st09
+[CRAWLER] Price:14,90EUR Stock:true
+
+
+Crawl site:Lequotidiendugeek
+
+https://lequotidiendugeek.fr/one-piece/2304-precommande-one-piece-card-game-big-mom-pirates-st07-en-300623.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2302-precommande-one-piece-card-game-monkey-luffy-st08-en-110823.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2303-precommande-one-piece-card-game-yamato-st09-en-110823.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2243-precommande-one-piece-card-game-film-edition-starter-deck-st05-en-200123.html
+[CRAWLER] Price:15,90EUR Stock:true
+
+https://lequotidiendugeek.fr/one-piece/2242-precommande-one-piece-card-game-navy-starter-deck-st06-en-100323.html
+[CRAWLER] Price:15,90EUR Stock:false
+
+
+Crawl site:fantastik
+
+https://www.fantastik.fr/jeux-de-cartes/23267-boite-complete-booster-one-piece-card-game-anglais-paramount-war-op-02.html
+[CRAWLER] Price:94.9EUR Stock:false
+
+
+Crawl site:Lerepairedudragon
+
+https://www.lerepairedudragon.fr/one-piece-card-game/95541-display-romance-dawn-de-24-boosters-op01-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.99EUR Stock:false
+
+https://www.lerepairedudragon.fr/one-piece-card-game/97530-display-paramount-war-de-24-boosters-op02-en-anglais-one-piece-card-game.html#
+[CRAWLER] Price:99.90EUR Stock:false
+
+https://www.lerepairedudragon.fr/one-piece-card-game/99253-display-pillars-of-strength-op03-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.90EUR Stock:false
+
+https://www.lerepairedudragon.fr/one-piece-card-game/100420-display-kingdoms-of-intrigue-op04-en-anglais-one-piece-card-game.html
+[CRAWLER] Price:99.90EUR Stock:true
+

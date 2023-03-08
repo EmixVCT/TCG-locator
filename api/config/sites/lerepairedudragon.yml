@@ -1,0 +1,28 @@
+name: "Lerepairedudragon"
+country: "FR"
+currency: "EUR"
+stock:
+  regex: <span id="availability_value" class="label (label-success)">
+  type: "bool"
+price: 
+  regex: <span id="our_price_display" class="price" itemprop="price">([0-9\.]*)€</span>
+  type: "string"
+
+urls:
+  "One piece TCG Display OP01 ENG":
+    language: "ENG"
+    url: "https://www.lerepairedudragon.fr/one-piece-card-game/95541-display-romance-dawn-de-24-boosters-op01-en-anglais-one-piece-card-game.html"
+
+  "One piece TCG Display OP02 ENG":
+    language: "ENG"
+    url: "https://www.lerepairedudragon.fr/one-piece-card-game/97530-display-paramount-war-de-24-boosters-op02-en-anglais-one-piece-card-game.html#"
+
+  "One piece TCG Display OP03 ENG":
+    language: "ENG"
+    url: "https://www.lerepairedudragon.fr/one-piece-card-game/99253-display-pillars-of-strength-op03-en-anglais-one-piece-card-game.html"
+
+  "One piece TCG Display OP04 ENG":
+    language: "ENG"
+    url: "https://www.lerepairedudragon.fr/one-piece-card-game/100420-display-kingdoms-of-intrigue-op04-en-anglais-one-piece-card-game.html"
+    
+
