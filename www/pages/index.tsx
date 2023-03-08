@@ -36,7 +36,7 @@ export default function IndexPage() {
             rel="noreferrer"
             className={buttonVariants({ size: "lg" })}
           >
-            Documentation
+            Get notified
           </Link>
           <Link
             target="_blank"
@@ -44,7 +44,7 @@ export default function IndexPage() {
             href={siteConfig.links.github}
             className={buttonVariants({ variant: "outline", size: "lg" })}
           >
-            GitHub
+            Support the project
           </Link>
         </div>
       </section>

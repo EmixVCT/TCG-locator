@@ -2,5 +2,10 @@ package model
 
 type Config struct {
 	Version     string
-	Collections map[string]*Collection
+	Debug       bool
+	CronCrawler string
+	SitesConfig []string
+
+	Sites    []*Site
+	Locators map[string]*Locator //url name Locator{}
 }

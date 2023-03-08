@@ -22,10 +22,22 @@ func Success(message string, data interface{}) render.Renderer {
 	}
 }
 
-func CollectionRender(collection *model.Collection) []render.Renderer {
+func LocatorsRender(locators map[string]*model.Locator) []render.Renderer {
 	list := []render.Renderer{}
-	for _, locator := range collection.Locators {
-		list = append(list, locator)
+	for url, locator := range locators {
+		item := &model.ItemResponse{
+			Url:           url,
+			Label:         locator.Label,
+			Country:       locator.Country,
+			Language:      locator.Language,
+			Currency:      locator.Currency,
+			State:         locator.State,
+			LastFetchDate: locator.LastFetchDate,
+			LastStockDate: locator.LastStockDate,
+			Stock:         locator.Stock,
+			Price:         locator.Price,
+		}
+		list = append(list, item)
 	}
 	return list
 }

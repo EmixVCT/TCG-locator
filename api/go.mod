@@ -7,6 +7,7 @@ require (
 	github.com/go-chi/cors v1.2.1
 	github.com/go-chi/httprate v0.7.1
 	github.com/go-chi/render v1.0.2
+	github.com/robfig/cron v1.2.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 

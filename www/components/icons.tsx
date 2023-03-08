@@ -7,6 +7,8 @@ import {
   ChevronsUpDown,
   ChevronsUp,
   ChevronsDown,
+  CheckCircle,
+  xCircle,
   type Icon as LucideIcon,
 } from "lucide-react"
 
@@ -20,6 +22,8 @@ export const Icons = {
   sort: ChevronsUpDown,
   sortasc: ChevronsUp,
   sortdesc: ChevronsDown,
+  yes: CheckCircle,
+  no: xCircle,
   logo: (props: LucideProps) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
       <path

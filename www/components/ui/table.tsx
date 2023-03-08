@@ -16,7 +16,7 @@ const getDefaultSorting = (defaultTableData, columns) =>{
     if (b[accessor] === null) return -1;
     if (a[accessor] === null && b[accessor] === null) return 0;
 
-    const ascending = a[accessor]
+    const ascending = a[accessor]?
       .toString()
       .localeCompare(b[accessor].toString(), "en", {
         numeric: true,
@@ -96,9 +96,13 @@ const TableBody = ({ tableData, columns }) => {
       {tableData.map((data) => {
         return (
           <tr key={data.id}>
-            {columns.map(({ accessor }) => {
+            {columns.map(({ accessor, isBoolean }) => {
               const tData = data[accessor] ? data[accessor] : "——";
-              return <td key={accessor} className="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">{tData}</td>;
+              return <td key={accessor} className="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-100">
+                {isBoolean
+                  ? tData ? <Icons.yes className="h-4 w-4 text-green-400" /> : <Icons.no className="h-4 w-4 text-red-400" />
+                  : tData}
+              </td>;
             })}
           </tr>
         );

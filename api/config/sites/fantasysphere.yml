@@ -1,0 +1,18 @@
+name: "FantasySphere"
+country: "FR"
+currency: "EUR"
+stock:
+  regex: <button *\n* *class="btn btn-primary add-to-cart" *\n* *data-button-action="add-to-cart" *\n* *type="submit" *\n* *([^(disabled)]) *\n* *>
+  type: "bool"
+price: 
+  regex: <span itemprop="price" content="([0-9,]*)">
+  type: "string"
+
+urls:
+  "One piece TCG Display OP01":
+    language: "ENG"
+    url: "https://shop.fantasysphere.net/one-piece-tcg/10023764-one-piece-display-boite-de-24-boosters-romance-dawn-op-01-en-811039038205.html"
+  "One piece TCG Display OP02":
+    language: "ENG"
+    url: "https://shop.fantasysphere.net/one-piece-tcg/10024012--pre-commande-one-piece-display-boite-de-24-boosters-paramount-war-op-02-en-811039039097.html"
+
