@@ -93,7 +93,7 @@ const TableBody = ({ tableData, columns }) => {
     <tbody className="bg-white dark:bg-slate-800">
       {tableData.map((data) => {
         return (
-            <tr key={data.id} onClick={() => window.open(data["Url"])} className={(data["Stock"] ? "bg-emerald-100 dark:bg-emerald-900 hover:bg-emerald-200 dark:hover:bg-teal-900" : "hover:bg-gray-200 dark:hover:bg-slate-600") +" cursor-pointer"}>
+            <tr key={data.id} onClick={() => window.open(data["Url"])} className={"hover:bg-gray-200 dark:hover:bg-slate-600 cursor-pointer"}>
               {columns.map(({ accessor, info, isBoolean,date }) => {
                 return <td key={accessor} 
                   className={(accessor == "Country" || accessor == "Price" || date ? "text-end " : "")+"border-b border-slate-100 dark:border-slate-700 p-2 px-4 text-slate-500 dark:text-slate-100"}>
