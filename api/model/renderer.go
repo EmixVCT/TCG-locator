@@ -37,6 +37,7 @@ type ItemResponse struct {
 	Url      string
 	Label    string
 	Country  string
+	Vendor   string
 	Language string
 	Currency string
 

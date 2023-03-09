@@ -1,5 +1,5 @@
 version: "0.0.1"
-debug: true
+debug: false
 croncrawler: "0 */2 * * * *"
 
 sitesconfig: ["fantasysphere.yml","ultrajeux.yml","micromania.yml","parkage.yml","lequotidiendugeek.yml","fantastik.yml","lerepairedudragon.yml"]

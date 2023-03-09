@@ -23,9 +23,9 @@ export const siteConfig: SiteConfig = {
     },
   ],
   links: {
-    twitter: "https://twitter.com/TCGLocator",
+    twitter: "https://twitter.com/EmixVCT",
     github: "https://github.com/EmixVCT/TCG-locator",
-    docs: "#",
+    docs: "",
   },
   apiEndpoint: "https://api.tcglocator.xyz/locators"
 }

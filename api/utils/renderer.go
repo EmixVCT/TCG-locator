@@ -29,6 +29,7 @@ func LocatorsRender(locators map[string]*model.Locator) []render.Renderer {
 			Url:           url,
 			Label:         locator.Label,
 			Country:       locator.Country,
+			Vendor:        locator.Vendor,
 			Language:      locator.Language,
 			Currency:      locator.Currency,
 			State:         locator.State,

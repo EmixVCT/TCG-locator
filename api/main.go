@@ -29,12 +29,9 @@ func main() {
 	r.Use(middleware.Logger)
 	r.Use(middleware.AllowContentType("application/json", "text/xml"))
 	r.Use(cors.Handler(cors.Options{
-		AllowedOrigins:   []string{"https://localhost", "http://localhost"},
-		AllowedMethods:   []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
-		AllowedHeaders:   []string{"Accept", "Authorization", "Content-Type", "X-CSRF-Token"},
-		ExposedHeaders:   []string{"Link"},
-		AllowCredentials: false,
-		MaxAge:           300, // Maximum value not ignored by any of major browsers
+		AllowedOrigins: []string{"https://tcglocator.xyz", "http://localhost", "http://localhost:3000"},
+		AllowedMethods: []string{"GET"},
+		MaxAge:         300, // Maximum value not ignored by any of major browsers
 	}))
 
 	// Public Routes

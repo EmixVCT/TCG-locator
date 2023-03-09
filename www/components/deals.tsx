@@ -12,10 +12,13 @@ import { siteConfig } from "@/config/site"
 export const DealsTable = () => {
   const [data, setData] = useState(false)
   const columns = [
-    { label: "Item", accessor: "Label", sortable: true },
-    { label: "In Stock", accessor: "Stock", isBoolean: true, sortable: true, sortbyOrder: "desc" },
-    { label: "Price", accessor: "Price", sortable: true },
-    { label: "Updated", accessor: "LastFetchDate", sortable: false},
+    { label: "Description", accessor: "Label",info: "Language", sortable: true },
+    { label: "Live", accessor: "State", isBoolean: true, sortable: true },
+    { label: "Vendor", accessor: "Vendor",info: "Country",sortable: true },
+    { label: "Stock", accessor: "Stock", isBoolean: true, sortable: true, sortbyOrder: "desc" },
+    { label: "Last Stock", accessor: "LastStockDate",date:true, sortable: true },
+    { label: "Price", accessor: "Price", info:"Currency", sortable: true },
+
   ];
   useEffect(() => {
     const data = fetch(siteConfig.apiEndpoint)

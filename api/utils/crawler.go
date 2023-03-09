@@ -39,6 +39,7 @@ func CrawlAll() {
 
 			config.Locators[l.Url].Label = name
 			config.Locators[l.Url].Country = s.Country
+			config.Locators[l.Url].Vendor = s.Name
 			config.Locators[l.Url].Currency = s.Currency
 			config.Locators[l.Url].Language = l.Language
 

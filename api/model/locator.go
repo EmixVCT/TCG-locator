@@ -8,6 +8,7 @@ import (
 type Locator struct {
 	Label    string
 	Country  string
+	Vendor   string
 	Currency string
 	Language string
 
