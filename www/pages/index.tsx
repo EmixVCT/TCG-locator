@@ -4,10 +4,14 @@ import Link from "next/link"
 import { siteConfig } from "@/config/site"
 import { Layout } from "@/components/layout"
 import { buttonVariants } from "@/components/ui/button"
+import React, { useState, useEffect } from "react"
 
 import { DealsTable } from "@/components/deals"
+import { Input } from "@/components/ui/input"
 
 export default function IndexPage() {
+  const [searchFilter, setSearchFilter] = useState("");
+
   return (
     <Layout>
       <Head>
@@ -44,9 +48,23 @@ export default function IndexPage() {
             Support the project
           </Link>
         </div>
+        <div className="flex gap-4 ">
+          <h3 className="my-auto">Search: </h3>
+          <Input 
+            placeholder="Filter"
+            onChange={event => setSearchFilter(event.target.value)}
+          />
+        </div>
       </section>
       <section>
-        <DealsTable />
+        <div className="flex gap-2 px-5 text-green-400">
+          <span className="relative flex h-3 w-3 my-auto">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+          </span>
+          Live 
+        </div>
+        <DealsTable filter={searchFilter}/>
       </section>
     </Layout>
   )

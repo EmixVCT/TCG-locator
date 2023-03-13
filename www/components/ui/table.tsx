@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Icons } from "@/components/icons"
 
@@ -25,10 +25,38 @@ const getDefaultSorting = (defaultTableData, columns) =>{
   return sorted;
 }
 
+const getSorting = (data, sortField, sortOrder) =>{
+  const sorted = [...data].sort((a, b) => {
+
+    if (a[sortField] === null) return 1;
+    if (b[sortField] === null) return -1;
+    if (a[sortField] === null && b[sortField] === null) return 0;
+
+    const ascending = a[sortField]?.toString().localeCompare(b[sortField].toString(), "en", {
+        numeric: true,
+      });
+
+    return sortOrder === "asc" ? ascending : -ascending;
+  });
+  return sorted;
+}
+
 const useSortableTable = (data, columns) => {
   const [tableData, setTableData] = useState(getDefaultSorting(data, columns));
+  const filterColumn = columns.filter((column) => column.sortbyOrder);
+  const [sortedCol, setSortedCol] = useState(filterColumn[0].accessor);
+  const [sortedOrder, setSortedOrder] = useState("desc");
+
+  useEffect(() => {
+    if (data) {
+      setTableData(getSorting(data,sortedCol,sortedOrder))
+    }
+  }, [data])
 
   const handleSorting = (sortField, sortOrder) => {
+    setSortedCol(sortField)
+    setSortedOrder(sortOrder)
+
     if (sortField) {
       const sorted = [...tableData].sort((a, b) => {
         if (a[sortField] === null) return 1;
@@ -98,7 +126,7 @@ const TableBody = ({ tableData, columns }) => {
                 return <td key={accessor} 
                   className={(accessor == "Country" || accessor == "Price" || date ? "text-end " : "")+"border-b border-slate-100 dark:border-slate-700 p-2 px-4 text-slate-500 dark:text-slate-100"}>
                     {date ? 
-                      new Date(data[accessor]).toLocaleDateString() 
+                      new Date(data[accessor]).toLocaleDateString()
                     : isBoolean
                       ? data[accessor] ? <Icons.yes className="h-4 w-4 text-green-400 mx-auto" /> : <Icons.no className="h-4 w-4 text-red-400 mx-auto" />
                       : data[accessor] ? data[accessor] : "——"
@@ -115,12 +143,12 @@ const TableBody = ({ tableData, columns }) => {
     </tbody>
   );
 };
-const Table = ({ data, columns }) => {
+const Table = ({ data, columns}) => {
   const [tableData, handleSorting] = useSortableTable(data, columns);
 
   return (
     <div className="not-prose relative bg-slate-50 rounded-xl overflow-hidden dark:bg-slate-800/25 relative rounded-xl border border-gray-200 dark:border-gray-800">
-      <div className="overflow-x-auto my-8">
+      <div className="overflow-x-auto my-5">
         <table className="border-collapse table-auto w-full text-sm">
           <TableHead {...{ columns, handleSorting }} />
           <TableBody {...{ columns, tableData }} />

@@ -1,6 +1,7 @@
 import type { AppProps } from "next/app"
 import { Inter as FontSans } from "@next/font/google"
 import { ThemeProvider } from "next-themes"
+import React, { useState, useEffect } from "react"
 
 import "@/styles/globals.css"
 
