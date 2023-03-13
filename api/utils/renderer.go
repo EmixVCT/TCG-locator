@@ -1,6 +1,7 @@
 package utils
 
 import (
+	"sort"
 	"tcglocator/model"
 
 	"github.com/go-chi/render"
@@ -24,21 +25,29 @@ func Success(message string, data interface{}) render.Renderer {
 
 func LocatorsRender(locators map[string]*model.Locator) []render.Renderer {
 	list := []render.Renderer{}
-	for url, locator := range locators {
+
+	keys := make([]string, 0, len(locators))
+	for k, _ := range locators {
+		keys = append(keys, k)
+	}
+	sort.Strings(keys)
+
+	for _, url := range keys {
 		item := &model.ItemResponse{
 			Url:           url,
-			Label:         locator.Label,
-			Country:       locator.Country,
-			Vendor:        locator.Vendor,
-			Language:      locator.Language,
-			Currency:      locator.Currency,
-			State:         locator.State,
-			LastFetchDate: locator.LastFetchDate,
-			LastStockDate: locator.LastStockDate,
-			Stock:         locator.Stock,
-			Price:         locator.Price,
+			Label:         locators[url].Label,
+			Country:       locators[url].Country,
+			Vendor:        locators[url].Vendor,
+			Language:      locators[url].Language,
+			Currency:      locators[url].Currency,
+			State:         locators[url].State,
+			LastFetchDate: locators[url].LastFetchDate,
+			LastStockDate: locators[url].LastStockDate,
+			Stock:         locators[url].Stock,
+			Price:         locators[url].Price,
 		}
 		list = append(list, item)
 	}
+
 	return list
 }

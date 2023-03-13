@@ -1,0 +1,17 @@
+name: "Pokemart"
+country: "FR"
+currency: "EUR"
+stock:
+  regex: <div class=\\"availability\\"><span>(In stock)<\\\/span>
+  type: "bool"
+price: 
+  regex: <span class=\\"woocommerce-Price-amount amount\\"><bdi><span class=\\"woocommerce-Price-currencySymbol\\">&euro;<\\\/span>&nbsp;([0-9,]*)
+  type: "string"
+
+urls:
+  "One piece TCG Display OP02 ENG":
+    language: "ENG"
+    url: "https://www.pokemart.fr/produit/one-piece-card-game-paramount-war-booster-display-op02-2/"
+  "One piece TCG Display OP01 ENG":
+    language: "ENG"
+    url: "https://www.pokemart.fr/produit/monobloc-carte-jeu-romance-dawn-booster-display-op01/"

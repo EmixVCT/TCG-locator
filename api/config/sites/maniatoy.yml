@@ -1,0 +1,22 @@
+name: "Maniatoy"
+country: "FR"
+currency: "EUR"
+stock:
+  regex: data-button-action="add-to-cart"\n *type="submit"\n *([^(disabled)])>
+  type: "bool"
+price: 
+  regex: <span class='current-price-value' content="([0-9\.]*)">
+  type: "string"
+
+urls:
+
+  "One piece TCG Display OP02 ENG":
+    language: "ENG"
+    url: "https://maniatoy.com/one-piece/125-display-one-piece-paramount-war-.html"
+
+  "One piece TCG Display OP03 ENG":
+    language: "ENG"
+    url: "https://maniatoy.com/one-piece/119-display-one-piece-pillars-of-strenght.html"
+
+    
+

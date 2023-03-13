@@ -1,0 +1,22 @@
+name: "Derivegeek"
+country: "FR"
+currency: "EUR"
+stock:
+  regex: (data-hook="add-to-cart")
+  type: "bool"
+price: 
+  regex: <span data-hook="formatted-primary-price">([0-9,]*) €</span>
+  type: "string"
+
+urls:
+  "One piece TCG Display OP02 ENG":
+    language: "ENG"
+    url: "https://www.derivegeek.fr/product-page/display-paramount-war-op02"
+
+  "One piece TCG Display OP03 ENG":
+    language: "ENG"
+    url: "https://www.derivegeek.fr/product-page/display-pillars-of-strength-op03"
+
+  "One piece TCG Deck ST05 EN":
+    language: "ENG"
+    url: "https://www.derivegeek.fr/product-page/deck-one-piece-st05-film-edition"

@@ -1,0 +1,22 @@
+name: "Bulle en Stock"
+country: "FR"
+currency: "EUR"
+stock:
+  regex: <label for="(quantity)">
+  type: "bool"
+price: 
+  regex: <div class="form-group col-xs-6 col-xxs-12 price" data-price="([0-9\.]*)">
+  type: "string"
+
+urls:
+
+  "One piece TCG Display OP02 ENG":
+    language: "ENG"
+    url: "https://www.bulleenstock.com/product/card-game-jcc-190/one-piece-jcc-op02-paramount-war-display-booster-x24-368904"
+
+  "One piece TCG Deck ST06 EN":
+    language: "ENG"
+    url: "https://www.bulleenstock.com/product/card-game-jcc-190/one-piece-jjc-st06-starter-deck-absolute-justice-en-368903"
+
+    
+

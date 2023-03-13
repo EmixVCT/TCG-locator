@@ -1,0 +1,19 @@
+name: "Pokemoms"
+country: "FR"
+currency: "EUR"
+stock:
+  regex: <button type="submit" name="(add-to-cart)"
+  type: "bool"
+price: 
+  regex: <span class="woocommerce-Price-amount amount"><bdi>([0-9,]*)
+  type: "string"
+
+urls:
+
+  "One piece TCG Display OP02 ENG":
+    language: "ENG"
+    url: "https://pokemoms.fr/boutique/32919/"
+
+  "One piece TCG Deck ST05 EN":
+    language: "ENG"
+    url: "https://pokemoms.fr/boutique/anglais-one-piece-cg-starter-deck-film-edition-st-05/"

@@ -2,7 +2,7 @@ name: "outpostbrussels"
 country: "BE"
 currency: "EUR"
 stock:
-  regex: <input type="number" id="Quantity" name="quantity" value="(1)" min="1" class="quantity-selector">
+  regex: <select name="id" id="ProductSelect-product-template" class="product-single__variants">[ *\n* *]*<option ([^(disabled="disabled")])
   type: "bool"
 price: 
   regex: <span id="ProductPrice" class="product-single__price" itemprop="price" content="([0-9\.]*)">
@@ -20,6 +20,9 @@ urls:
   "One piece TCG Display OP03 ENG":
     language: "ENG"
     url: "https://outpostbrussels.be/products/one-piece-card-game-pillars-of-strength-op03-booster-display-24-packs-en?_pos=1&_sid=9f513ac5b&_ss=r"
-
+    
+  "One piece TCG Deck ST07 EN":
+    language: "ENG"
+    url: "https://outpostbrussels.be/products/one-piece-card-game-big-mom-pirates-st07-starter-deck-en?_pos=1&_sid=21b4a2fa6&_ss=r"
     
 

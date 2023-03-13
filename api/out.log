@@ -1,17 +1,3 @@
-2023/03/09 00:10:18 TCG-Locator configuration file loaded, version: 0.0.1
+2023/03/13 23:02:25 TCG-Locator configuration file loaded, version: 0.0.1
 Crawler started (cron  0 */2 * * * * )
-2023/03/09 00:10:35 Server running on port 3050
-2023/03/09 00:10:40 Number of Items: 35
-2023/03/09 00:10:40 "GET http://localhost:3050/locators HTTP/1.1" from 127.0.0.1:45394 - 200 12714B in 1.325793ms
-2023/03/09 00:10:40 Number of Items: 35
-2023/03/09 00:10:40 "GET http://localhost:3050/locators HTTP/1.1" from 127.0.0.1:45408 - 200 12714B in 479.143µs
-2023/03/09 00:10:55 Number of Items: 35
-2023/03/09 00:10:55 "GET http://localhost:3050/locators HTTP/1.1" from 127.0.0.1:45410 - 200 12714B in 542.504µs
-2023/03/09 00:10:55 Number of Items: 35
-2023/03/09 00:10:55 "GET http://localhost:3050/locators HTTP/1.1" from 127.0.0.1:45420 - 200 12714B in 241.878µs
-2023/03/09 00:20:43 Number of Items: 35
-2023/03/09 00:20:43 "GET http://localhost:3050/locators HTTP/1.1" from 127.0.0.1:45410 - 200 12711B in 341.696µs
-2023/03/09 00:20:47 Number of Items: 35
-2023/03/09 00:20:47 "GET http://localhost:3050/locators HTTP/1.1" from 127.0.0.1:45410 - 200 12711B in 256.412µs
-2023/03/09 00:36:54 Number of Items: 35
-2023/03/09 00:36:54 "GET http://localhost:3050/locators HTTP/1.1" from 127.0.0.1:45424 - 200 12716B in 867.436µs
+2023/03/13 23:02:29 Server running on port 3050

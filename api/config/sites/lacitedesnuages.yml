@@ -1,0 +1,18 @@
+name: "Lacitedesnuages"
+country: "BE"
+currency: "EUR"
+stock:
+  regex: <span class="text-primary" itemprop="price" content="[0-9\.]*">([0-9,]*)
+  type: "bool"
+price: 
+  regex: <span class="text-primary" itemprop="price" content="[0-9\.]*">([0-9,]*)
+  type: "string"
+
+urls:
+  "One piece TCG Display OP02 ENG":
+    language: "ENG"
+    url: "https://www.lacitedesnuages.be/fr/30668-one-piece-jcc-card-game-parammount-war-op-02-booster-display-24-packs-en.html"
+
+  "One piece TCG Deck ST05 EN":
+    language: "ENG"
+    url: "https://www.lacitedesnuages.be/fr/30390-one-piece-card-game-deck-de-depart-film-edition-starter-deck-st05-en.html"
