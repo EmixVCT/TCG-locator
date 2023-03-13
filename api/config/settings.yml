@@ -2,6 +2,6 @@ version: "0.0.1"
 debug: false
 croncrawler: "0 */2 * * * *"
 
-# sitesconfig: ["maniatoy.yml","bulleenstock.yml","lacitedesnuages.yml","fantasysphere.yml","ultrajeux.yml","micromania.yml","parkage.yml","lequotidiendugeek.yml","fantastik.yml","lerepairedudragon.yml","pokemart.yml","outpostbrussels.yml","derivegeek.yml","pokemoms.yml"]
+sitesconfig: ["maniatoy.yml","bulleenstock.yml","lacitedesnuages.yml","fantasysphere.yml","ultrajeux.yml","micromania.yml","parkage.yml","lequotidiendugeek.yml","fantastik.yml","lerepairedudragon.yml","pokemart.yml","outpostbrussels.yml","derivegeek.yml","pokemoms.yml"]
 # sitesconfig: ["fnac.yml"]
-sitesconfig: ["maniatoy.yml","bulleenstock.yml"]
+#sitesconfig: ["maniatoy.yml","bulleenstock.yml"]
