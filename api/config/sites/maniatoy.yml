@@ -1,5 +1,5 @@
 name: "Maniatoy"
-country: "FR"
+country: "BE"
 currency: "EUR"
 stock:
   regex: data-button-action="add-to-cart"\n *type="submit"\n *([^(disabled)])>

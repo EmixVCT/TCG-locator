@@ -1,0 +1,34 @@
+name: "Bulle en Stock"
+country: "FR"
+currency: "EUR"
+stock:
+  regex: <span class="font-weight-bold color-primary small text-right text-nowrap">([0-9\.,]*) €<\/span>
+  type: "bool"
+price: 
+  regex: <span class="font-weight-bold color-primary small text-right text-nowrap">([0-9\.,]*) €<\/span>
+  type: "string"
+
+urls:
+
+  "One piece TCG Display OP02 ENG":
+    language: "ENG"
+    url: "https://www.cardmarket.com/fr/OnePiece/Products/Booster-Boxes/Paramount-War-Booster-Box"
+
+  "One piece TCG Display OP01 ENG":
+    language: "ENG"
+    url: "https://www.cardmarket.com/fr/OnePiece/Products/Booster-Boxes/Romance-Dawn-Booster-Box"
+
+  "One piece TCG Display OP02 JAP":
+    language: "JAP"
+    url: "https://www.cardmarket.com/fr/OnePiece/Products/Booster-Boxes/Paramount-War-Booster-Box-Non-English"
+
+  "One piece TCG Display OP01 JAP":
+    language: "JAP"
+    url: "https://www.cardmarket.com/fr/OnePiece/Products/Booster-Boxes/Romance-Dawn-Booster-Box-Non-English"
+
+    
+
+
+
+
+
