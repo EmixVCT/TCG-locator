@@ -20,7 +20,7 @@ export default function IndexPage() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section className="container grid items-center gap-6 pt-6 pb-8 md:py-10">
+      <section className="container grid items-center gap-6 pt-6 pb-6 md:py-8">
         <div className="flex max-w-[980px] flex-col items-start gap-2">
           <h1 className="text-3xl font-extrabold leading-tight tracking-tighter sm:text-3xl md:text-5xl lg:text-6xl"> 
             Find trading cards in stock <br className="hidden sm:inline" />
@@ -56,14 +56,16 @@ export default function IndexPage() {
           />
         </div>
       </section>
-      <section>
-        <div className="flex gap-2 px-5 text-green-400">
+      <section className="container ">
+        <div className="flex max-w-[980px] items-start gap-2 text-green-400 mb-2">
           <span className="relative flex h-3 w-3 my-auto">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
           </span>
           Live 
         </div>
+      </section>
+      <section>
         <DealsTable filter={searchFilter}/>
       </section>
     </Layout>
