@@ -30,11 +30,11 @@ export const DealsTable = ({filter}) => {
   const refreshInterval = 30000
   const columns = [
     { label: "Description", accessor: "Label",info: "Language", sortable: true },
-    { label: "Live", accessor: "State", isBoolean: true, sortable: true },
-    { label: "Vendor", accessor: "Vendor",info: "Country",sortable: true },
     { label: "Stock", accessor: "Stock", isBoolean: true, sortable: true, sortbyOrder: "desc" },
-    { label: "Last Stock", accessor: "LastStockDate",date:true, sortable: true },
     { label: "Price", accessor: "Price", info:"Currency", sortable: true },
+    { label: "Vendor", accessor: "Vendor",info: "Country",sortable: true },
+    { label: "Last Stock", accessor: "LastStockDate",date:true, sortable: true },
+    { label: "Live", accessor: "State", status: true, sortable: true },
 
   ];
 

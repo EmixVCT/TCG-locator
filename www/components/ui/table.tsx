@@ -116,20 +116,44 @@ const TableHead = ({ columns, handleSorting }) => {
   );
 };
 
+const stateOk = () => {
+  return (
+    <span className="relative flex h-3 w-3 m-auto ">
+      <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+      <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+    </span>
+  )
+}
+const stateNo = () => {
+  return (
+    <span className="relative flex h-3 w-3 m-auto ">
+      <span className="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
+    </span>
+  )
+}
+
 const TableBody = ({ tableData, columns }) => {
   return (
     <tbody className="bg-white dark:bg-slate-800">
       {tableData.map((data) => {
         return (
             <tr key={data.id} onClick={() => window.open(data["Url"])} className={"hover:bg-gray-200 dark:hover:bg-slate-600 cursor-pointer"}>
-              {columns.map(({ accessor, info, isBoolean,date }) => {
+              {columns.map(({ accessor, info, isBoolean, date, status }) => {
                 return <td key={accessor} 
-                  className={(accessor == "Country" || accessor == "Price" || date ? "text-end " : "")+"border-b border-slate-100 dark:border-slate-700 p-2 px-4 text-slate-500 dark:text-slate-100"}>
+                  className={(accessor == "Vendor" || accessor == "Price" || date ? "text-end " : "")+"border-b border-slate-100 dark:border-slate-700 p-2 px-4 text-slate-500 dark:text-slate-100"}>
                     {date ? 
                       new Date(data[accessor]).toLocaleDateString()
                     : isBoolean
-                      ? data[accessor] ? <Icons.yes className="h-4 w-4 text-green-400 mx-auto" /> : <Icons.no className="h-4 w-4 text-red-400 mx-auto" />
-                      : data[accessor] ? data[accessor] : "——"
+                      ? data[accessor] 
+                        ? <Icons.yes className="h-4 w-4 text-green-400 mx-auto" /> 
+                        : <Icons.no className="h-4 w-4 text-red-400 mx-auto" />
+                      : status 
+                        ? data[accessor] 
+                          ? stateOk() 
+                          : stateNo() 
+                        : data[accessor] 
+                          ? data[accessor] 
+                          : "——"
                     }
                     {data[info] 
                       ? " ("+data[info]+")" : ""
