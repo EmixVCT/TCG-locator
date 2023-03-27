@@ -10,6 +10,10 @@ price:
 
 urls:
 
+  "One piece TCG Display OP01 ENG":
+    language: "ENG"
+    url: "https://maniatoy.com/one-piece/133-display-one-piece-romance-dawn-op1.html"
+    
   "One piece TCG Display OP02 ENG":
     language: "ENG"
     url: "https://maniatoy.com/one-piece/125-display-one-piece-paramount-war-.html"
