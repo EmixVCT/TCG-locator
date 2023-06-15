@@ -4,4 +4,3 @@ croncrawler: "0 */2 * * * *"
 
 sitesconfig: ["cardmarket.yml","maniatoy.yml","bulleenstock.yml","lacitedesnuages.yml","fantasysphere.yml","ultrajeux.yml","micromania.yml","parkage.yml","lequotidiendugeek.yml","fantastik.yml","lerepairedudragon.yml","pokemart.yml","outpostbrussels.yml","derivegeek.yml","pokemoms.yml"]
 # sitesconfig: ["cardmarket.yml"]
-#sitesconfig: ["maniatoy.yml","bulleenstock.yml"]

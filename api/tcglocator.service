@@ -1,0 +1,12 @@
+[Unit]
+Description=Backend of tcglocator
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5s
+WorkingDirectory=/home/maxime/TCG-locator/api
+ExecStart=/home/maxime/TCG-locator/api/tcglocator
+
+[Install]
+WantedBy=multi-user.target

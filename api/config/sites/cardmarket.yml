@@ -27,12 +27,12 @@ urls:
     url: "https://www.cardmarket.com/fr/OnePiece/Products/Booster-Boxes/Romance-Dawn-Booster-Box-Non-English"
 
   "One piece TCG Booster OP01 JAP":
-      language: "JAP"
-      url: "https://www.cardmarket.com/fr/OnePiece/Products/Boosters/Romance-Dawn-Booster-Non-English"
+    language: "JAP"
+    url: "https://www.cardmarket.com/fr/OnePiece/Products/Boosters/Romance-Dawn-Booster-Non-English"
 
   "One piece TCG Booster OP02 JAP":
-      language: "JAP"
-      url: "https://www.cardmarket.com/fr/OnePiece/Products/Boosters/Paramount-War-Booster-Non-English"
+    language: "JAP"
+    url: "https://www.cardmarket.com/fr/OnePiece/Products/Boosters/Paramount-War-Booster-Non-English"
 
 
 

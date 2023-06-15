@@ -35,7 +35,9 @@ func CrawlAll() {
 		Debug("\n", "Crawl site:", s.Name, "\n")
 
 		for name, l := range s.Urls {
-			config.Locators[l.Url] = &model.Locator{}
+			if config.Locators[l.Url] == nil {
+				config.Locators[l.Url] = &model.Locator{}
+			}
 
 			config.Locators[l.Url].Label = name
 			config.Locators[l.Url].Country = s.Country
