@@ -16,6 +16,10 @@ urls:
   "One piece TCG Display OP03 ENG":
     language: "ENG"
     url: "https://www.derivegeek.fr/product-page/display-pillars-of-strength-op03"
+    
+  "One piece TCG Display OP04 ENG":
+    language: "ENG"
+    url: "https://www.derivegeek.fr/product-page/display-kingdoms-of-intrigue-op04"
 
   "One piece TCG Deck ST05 EN":
     language: "ENG"
