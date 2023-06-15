@@ -16,9 +16,15 @@ urls:
   "One piece TCG Display OP02 EN":
     language: "ENG"
     url: "https://www.ultrajeux.com/produit-21124-boite-de-24-boosters-paramount-war-op02-.html"
+    
   "One piece TCG Display OP03 EN":
     language: "ENG"
     url: "https://www.ultrajeux.com/produit-22097-boite-de-24-boosters-pillard-of-strength-op03-.html"
+
+"One piece TCG Display OP04 EN":
+    language: "ENG"
+    url: "https://www.ultrajeux.com/produit-23053-boite-de-24-boosters-kingdoms-of-intrigue-op04-.html"
+
 
   "One piece TCG Deck ST01 EN":
     language: "ENG"

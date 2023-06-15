@@ -9,10 +9,34 @@ price:
   type: "string"
 
 urls:
+  "One piece TCG Display OP01 ENG":
+    language: "ENG"
+    url: "https://www.lacitedesnuages.be/fr/29480-one-piece-jcc-card-game-romance-dawn-booster-display-op01-24-packs-en.html"
+ 
   "One piece TCG Display OP02 ENG":
     language: "ENG"
     url: "https://www.lacitedesnuages.be/fr/30668-one-piece-jcc-card-game-parammount-war-op-02-booster-display-24-packs-en.html"
 
+  "One piece TCG Display OP03 ENG":
+    language: "ENG"
+    url: "https://www.lacitedesnuages.be/fr/33065-one-piece-card-game-booster-display-pillars-of-strength-op03-24-packs-en.html"
+
+  "One piece TCG Display OP04 ENG":
+    language: "ENG"
+    url: "https://www.lacitedesnuages.be/fr/35221-one-piece-card-game-kingdoms-of-intrigue-op-04-booster-display-24-packs-en.html"
+
   "One piece TCG Deck ST05 EN":
     language: "ENG"
     url: "https://www.lacitedesnuages.be/fr/30390-one-piece-card-game-deck-de-depart-film-edition-starter-deck-st05-en.html"
+
+  "One piece TCG Deck ST06 EN":
+    language: "ENG"
+    url: "https://www.lacitedesnuages.be/fr/30669-one-piece-jcc-card-game-navy-st-06-starter-deck-display-en.html"
+
+  "One piece TCG Deck ST09 EN":
+    language: "ENG"
+    url: "https://www.lacitedesnuages.be/fr/34419-one-piece-card-game-starter-deck-display-yamato-st09-en.html"
+
+  "One piece TCG Deck ST08 EN":
+    language: "ENG"
+    url: "https://www.lacitedesnuages.be/fr/34418-one-piece-card-game-starter-deck-display-monkeydluffy-st08-en.html"
